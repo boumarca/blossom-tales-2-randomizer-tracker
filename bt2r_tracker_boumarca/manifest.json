@@ -1,5 +1,7 @@
 {
     "name": "Blossom Tales 2 Randomizer Tracker",
     "uid": "bt2r_tracker_boumarca",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "author": "boumarca & jeromeOthot",
+    "game_name": "Blossom Tales 2 Randomizer"
 }
