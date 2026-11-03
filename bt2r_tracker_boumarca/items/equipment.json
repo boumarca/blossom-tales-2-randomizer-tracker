@@ -1,8 +1,233 @@
 [
   {
+    "name": "Sword",
+    "type": "progressive",
+    "stages": [
+      { "img": "images/items/sword.png", "codes": "sword,swordlevel:1" },
+      { "img": "images/items/sword2.png", "codes": "swordlevel:2" },
+      { "img": "images/items/sword3.png", "codes": "swordlevel:3" },
+      { "img": "images/items/sword4.png", "codes": "swordbeams" }
+    ]
+  },
+  {
+    "name": "Shield",
+    "type": "progressive",
+    "stages": [
+      { "img": "images/items/shield.png", "codes": "shield,shieldlevel:1" },
+      { "img": "images/items/shield2.png", "codes": "shieldlevel:2" },
+      { "img": "images/items/shield3.png", "codes": "shieldlevel:3" }
+    ]
+  },
+  {
+    "name": "Bow",
+    "type": "progressive",
+    "stages": [
+      { "img": "images/items/bow.png", "codes": "bow,bowlevel:1" },
+      { "img": "images/items/bow2.png", "codes": "bowlevel:2" }
+    ]
+  },
+  {
     "name": "Bombs",
     "type": "toggle",
     "img": "images/items/bombs.png",
     "codes": "bombs"
+  },
+  {
+    "name": "Boomerang",
+    "type": "toggle",
+    "img": "images/items/boomerang.png",
+    "codes": "boomerang"
+  },
+  {
+    "name": "Torch",
+    "type": "toggle",
+    "img": "images/items/torch.png",
+    "codes": "torch"
+  },
+  {
+    "name": "Fishing Rod",
+    "type": "toggle",
+    "img": "images/items/fishingrod.png",
+    "codes": "fishingrod"
+  },
+  {
+    "name": "Instrument",
+    "type": "progressive_toggle",
+    "stages": [
+      { "img": "images/items/accordion.png", "codes": "instrument" },
+      { "img": "images/items/guitar.png", "codes": "instrument" }
+    ]
+  },
+  {
+    "name": "Rex Teleporter",
+    "type": "toggle",
+    "img": "images/items/teleporter.png",
+    "codes": "teleporter"
+  },
+  {
+    "name": "Bottles",
+    "type": "consumable",
+    "img": "images/items/jar_empty.png",
+    "codes": "jar",
+    "max_quantity": 8
+  },
+  {
+    "name": "Yo-Yo",
+    "type": "toggle",
+    "img": "images/items/grapplehook.png",
+    "codes": "grapplehook"
+  },
+  {
+    "name": "Gold Keys",
+    "type": "consumable",
+    "img": "images/items/goldkey.png",
+    "codes": "goldkey",
+    "max_quantity": 11
+  },
+  {
+    "name": "Quarter Hearts",
+    "type": "consumable",
+    "img": "images/items/heartpiece.png",
+    "codes": "heartpiece",
+    "max_quantity": 52
+  },
+  {
+    "name": "Full Hearts",
+    "type": "consumable",
+    "img": "images/items/fullheart.png",
+    "codes": "fullheart",
+    "max_quantity": 4
+  },
+  {
+    "name": "Energy Crystal",
+    "type": "consumable",
+    "img": "images/items/energycrystal.png",
+    "codes": "crystal",
+    "max_quantity": 20
+  },
+  {
+    "name": "Gems",
+    "type": "consumable",
+    "img": "images/items/gem.png",
+    "codes": "gem"
+  },
+  {
+    "name": "Bee Medallion",
+    "type": "toggle",
+    "img": "images/items/beemedallion.png",
+    "codes": "beemedallion"
+  },
+  {
+    "name": "Honeycombs",
+    "type": "consumable",
+    "img": "images/items/honeycomb.png",
+    "codes": "honeycomb",
+    "max_quantity": 10,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Old Bones",
+    "type": "consumable",
+    "img": "images/items/canyonbone.png",
+    "codes": "canyonbone",
+    "max_quantity": 20,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Shovel",
+    "type": "toggle",
+    "img": "images/items/shovel.png",
+    "codes": "shovel"
+  },
+  {
+    "name": "Key Piece 1",
+    "type": "toggle",
+    "img": "images/items/keypiece1.png",
+    "codes": "keypiece1"
+  },
+  {
+    "name": "Key Piece 2",
+    "type": "toggle",
+    "img": "images/items/keypiece2.png",
+    "codes": "keypiece2"
+  },
+  {
+    "name": "Key Piece 3",
+    "type": "toggle",
+    "img": "images/items/keypiece3.png",
+    "codes": "keypiece3"
+  },
+  {
+    "name": "Necklace",
+    "type": "toggle",
+    "img": "images/items/heartnecklace.png",
+    "codes": "heartnecklace"
+  },
+  {
+    "name": "Tree Seeds",
+    "type": "toggle",
+    "img": "images/items/acorns.png",
+    "codes": "treeseed"
+  },
+  {
+    "name": "Green Gem",
+    "type": "toggle",
+    "img": "images/items/greengem.png",
+    "codes": "greengem"
+  },
+  {
+    "name": "Blue Gem",
+    "type": "toggle",
+    "img": "images/items/bluegem.png",
+    "codes": "bluegem"
+  },
+  {
+    "name": "Floaties",
+    "type": "toggle",
+    "img": "images/items/flippers.png",
+    "codes": "flippers"
+  },
+  {
+    "name": "combat Scroll",
+    "type": "consumable",
+    "img": "images/items/scroll.png",
+    "codes": "scroll",
+    "max_quantity": 4
+  },
+  {
+    "name": "Falcon",
+    "type": "toggle",
+    "img": "images/items/falcon.png",
+    "codes": "falcon"
+  },
+  {
+    "name": "Minuet of the Desert",
+    "type": "toggle",
+    "img": "images/items/song_opensesame.png",
+    "codes": "songopensesame"
+  },
+  {
+    "name": "Aria to the Morning",
+    "type": "toggle",
+    "img": "images/items/song_wakeup.png",
+    "codes": "songwakeup"
+  },
+  {
+    "name": "Rising Wind Sonata",
+    "type": "toggle",
+    "img": "images/items/song_summonballoon.png",
+    "codes": "songsummonballoon"
+  },
+  {
+    "name": "Concerto of the Hoof",
+    "type": "toggle",
+    "img": "images/items/song_callhorse.png",
+    "codes": "songcallhorse"
+  },
+  {
+    "name": "Overture of the Wise",
+    "type": "toggle",
+    "img": "images/items/song_grandpahint.png",
+    "codes": "songgrandpahint"
   }
 ]
