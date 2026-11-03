@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Grandma",
+    "sections": [
+      {
+        "name": "First gift",
+        "item_count": 1
+      },
+      {
+        "name": "Second gift",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 332, "y": 303 }
+    ]
+  }
+]

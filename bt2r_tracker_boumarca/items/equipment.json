@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Bombs",
+    "type": "toggle",
+    "img": "images/items/bombs.png",
+    "codes": "bombs"
+  }
+]
