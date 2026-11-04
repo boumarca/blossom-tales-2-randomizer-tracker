@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Gold Keys",
+    "type": "consumable",
+    "img": "images/items/goldkey.png",
+    "codes": "goldkey",
+    "max_quantity": 11
+  },
+  {
+    "name": "Quarter Hearts",
+    "type": "consumable",
+    "img": "images/items/heartpiece.png",
+    "codes": "heartpiece",
+    "max_quantity": 52
+  },
+  {
+    "name": "Full Hearts",
+    "type": "consumable",
+    "img": "images/items/fullheart.png",
+    "codes": "fullheart",
+    "max_quantity": 4
+  },
+  {
+    "name": "Energy Crystal",
+    "type": "consumable",
+    "img": "images/items/energycrystal.png",
+    "codes": "crystal",
+    "max_quantity": 20
+  },
+  {
+    "name": "Gems",
+    "type": "consumable",
+    "img": "images/items/gem.png",
+    "codes": "gem"
+  },
+  {
+    "name": "Honeycombs",
+    "type": "consumable",
+    "img": "images/items/honeycomb.png",
+    "codes": "honeycomb",
+    "max_quantity": 10,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Old Bones",
+    "type": "consumable",
+    "img": "images/items/canyonbone.png",
+    "codes": "canyonbone",
+    "max_quantity": 20,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Necklace",
+    "type": "toggle",
+    "img": "images/items/heartnecklace.png",
+    "codes": "heartnecklace"
+  },
+  {
+    "name": "Tree Seeds",
+    "type": "toggle",
+    "img": "images/items/acorns.png",
+    "codes": "treeseed"
+  },
+  {
+    "name": "Green Gem",
+    "type": "toggle",
+    "img": "images/items/greengem.png",
+    "codes": "greengem"
+  },
+  {
+    "name": "Blue Gem",
+    "type": "toggle",
+    "img": "images/items/bluegem.png",
+    "codes": "bluegem"
+  },
+  {
+    "name": "Combat Scroll",
+    "type": "consumable",
+    "img": "images/items/scroll.png",
+    "codes": "scroll",
+    "max_quantity": 4
+  }
+]

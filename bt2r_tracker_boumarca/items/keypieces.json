@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Key Piece 1",
+    "type": "toggle",
+    "capturable": false,
+    "mask_input": true,
+    "img": "images/items/keypiece1.png",
+    "codes": "keypiece1"
+  },
+  {
+    "name": "Key Piece 2",
+    "type": "toggle",
+    "capturable": false,
+    "mask_input": true,
+    "img": "images/items/keypiece2.png",
+    "codes": "keypiece2"
+  },
+  {
+    "name": "Key Piece 3",
+    "type": "toggle",
+    "capturable": false,
+    "mask_input": true,
+    "img": "images/items/keypiece3.png",
+    "codes": "keypiece3"
+  }
+]

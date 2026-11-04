@@ -1,4 +1,7 @@
 Tracker:AddItems("items/equipment.json")
+Tracker:AddItems("items/collectables.json")
+Tracker:AddItems("items/songs.json")
+Tracker:AddItems("items/keypieces.json")
 
 Tracker:AddMaps("maps/maps.json")
 

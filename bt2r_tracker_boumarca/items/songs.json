@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Minuet of the Desert",
+    "type": "toggle",
+    "img": "images/items/song_opensesame.png",
+    "codes": "songopensesame"
+  },
+  {
+    "name": "Aria to the Morning",
+    "type": "toggle",
+    "img": "images/items/song_wakeup.png",
+    "codes": "songwakeup"
+  },
+  {
+    "name": "Rising Wind Sonata",
+    "type": "toggle",
+    "img": "images/items/song_summonballoon.png",
+    "codes": "songsummonballoon"
+  },
+  {
+    "name": "Concerto of the Hoof",
+    "type": "toggle",
+    "img": "images/items/song_callhorse.png",
+    "codes": "songcallhorse"
+  },
+  {
+    "name": "Overture of the Wise",
+    "type": "toggle",
+    "img": "images/items/song_grandpahint.png",
+    "codes": "songgrandpahint"
+  }
+]
