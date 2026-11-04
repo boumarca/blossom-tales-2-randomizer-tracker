@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Jungle Front Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 5
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1079, "y": 536 }
+    ]
+  },
+  {
+    "name": "Archeologist Puzzle",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1068, "y": 482 }
+    ]
+  },
+  {
+    "name": "Jungle Front Vine Cliff",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1008, "y": 471 }
+    ]
+  },
+  {
+    "name": "Jungle Front North",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1229, "y": 447 }
+    ]
+  }
+]

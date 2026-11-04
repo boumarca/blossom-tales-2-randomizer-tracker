@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Jungle Back Note Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 4
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1391, "y": 652 }
+    ]
+  },
+  {
+    "name": "Jungle Back Pirate Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1385, "y": 786 }
+    ]
+  },
+  {
+    "name": "Jungle Ghost",
+    "sections": [
+      {
+        "name": "Give Heart Necklace",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 991, "y": 739 }
+    ]
+  }
+]
