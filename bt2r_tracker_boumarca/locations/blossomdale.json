@@ -85,15 +85,18 @@
     "sections": [
       {
         "name": "Left Item",
-        "item_count": 1
+        "item_count": 1,
+        "capture_item": true
       },
       {
         "name": "Middle Item",
-        "item_count": 1
+        "item_count": 1,
+        "capture_item": true
       },
       {
         "name": "Right Item",
-        "item_count": 1
+        "item_count": 1,
+        "capture_item": true
       }
     ],
     "map_locations": [

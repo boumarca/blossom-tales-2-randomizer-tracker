@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Eastern Overworld Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 4
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 707, "y": 674 }
+    ]
+  },
+  {
+    "name": "Eastern Overworld Note Cave",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 921, "y": 413 }
+    ]
+  },
+  {
+    "name": "Chipmunk King",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 676, "y": 646 }
+    ]
+  },
+  {
+    "name": "Treasure Minigame",
+    "sections": [
+      {
+        "name": "Prize 1",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Prize 2",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Prize 3",
+        "item_count": 1,
+        "capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 802, "y": 598 }
+    ]
+  },
+  {
+    "name": "Eastern Overworld Abandoned House",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 798, "y": 478 }
+    ]
+  },
+  {
+    "name": "Eastern Overworld Ledge",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 910, "y": 536 }
+    ]
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Northern Overworld Note Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 6
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 594, "y": 21 }
+    ]
+  },
+  {
+    "name": "Fishing Hole Cave",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 667, "y": 226 }
+    ]
+  },
+  {
+    "name": "Wizard Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 5
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 879, "y": 206 }
+    ]
+  },
+  {
+    "name": "River Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 878, "y": 333 }
+    ]
+  },
+  {
+    "name": "Waterfall Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 4
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 958, "y": 17 }
+    ]
+  },
+  {
+    "name": "Tree Lord",
+    "sections": [
+      {
+        "name": "Acorns",
+        "item_count": 1
+      },
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 554, "y": 31 }
+    ]
+  },
+  {
+    "name": "Queen Bee",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 559, "y": 191 }
+    ]
+  },
+  {
+    "name": "Forest Bard",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 711, "y": 82 }
+    ]
+  },
+  {
+    "name": "Fish Trader",
+    "sections": [
+      {
+        "name": "Trade 1",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Trade 2",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Trade 3",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Trade 4",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Trade 5",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Trade 6",
+        "item_count": 1,
+        "capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 672, "y": 151 }
+    ]
+  },
+  {
+    "name": "Northern Overworld Combat Mausoleum",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 674, "y": 37 }
+    ]
+  },
+  {
+    "name": "Forest Maze",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 551, "y": 137 }
+    ]
+  },
+  {
+    "name": "Bee Area Bomb Rock",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 622, "y": 208 }
+    ]
+  },
+  {
+    "name": "Fishing Hole Bomb Rock",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 661, "y": 203 }
+    ]
+  },
+  {
+    "name": "Fishing Hole Ledge",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 753, "y": 146 }
+    ]
+  },
+  {
+    "name": "Forest Ledge Bomb Rock",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 877, "y": 14 }
+    ]
+  },
+  {
+    "name": "Wizard Bomb Rock",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 841, "y": 178 }
+    ]
+  },
+  {
+    "name": "Wizard House",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 799, "y": 200 }
+    ]
+  },
+  {
+    "name": "Northern Overworld Riverside",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 859, "y": 346 }
+    ]
+  },
+  {
+    "name": "Northern Overworld Pedestal Area",
+    "sections": [
+      {
+        "name": "Buried Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 936, "y": 120 }
+    ]
+  },
+  {
+    "name": "Pedestal",
+    "sections": [
+      {
+        "name": "Master Sword",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 959, "y": 63 }
+    ]
+  },
+  {
+    "name": "Construction Bridge Bomb Rock",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 931, "y": 234 }
+    ]
+  }
+]
