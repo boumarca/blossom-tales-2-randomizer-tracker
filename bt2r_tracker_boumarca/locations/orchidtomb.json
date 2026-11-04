@@ -1,0 +1,22 @@
+[
+  {
+    "name": "King Orchid's Tomb",
+    "sections": [
+      {
+        "name": "Rat Room Chest",
+        "item_count": 1
+      },
+      {
+        "name": "King Orchid Reward",
+        "item_count": 1
+      },
+      {
+        "name": "King Orchid Sword&Shield",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 705, "y": 280 }
+    ]
+  }
+]
