@@ -1,0 +1,54 @@
+[
+    {
+    "name": "Morkla",
+    "sections": [
+      {
+        "name": "Room 3 Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Room 4 Chests",
+        "item_count": 2
+      },
+      {
+        "name": "Torch Room Falling Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Blue Gem Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Flooded Treasure Room",
+        "item_count": 4
+      },
+      {
+        "name": "Northern Secret Room Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Southern Secret Room Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Green Gem Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Pirate Boss Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Octopus Boss Reward",
+        "item_count": 1
+      },
+      {
+        "name": "Octopus Boss Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1217, "y": 590 }
+    ]
+  }
+]
