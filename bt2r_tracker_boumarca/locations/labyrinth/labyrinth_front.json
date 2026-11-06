@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Labyrinth Front North Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 6
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 287, "y": 9 }
+    ]
+  },
+  {
+    "name": "Labyrinth Front East Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 401, "y": 183 }
+    ]
+  },
+  {
+    "name": "Golem Forge",
+    "sections": [
+      {
+        "name": "Forged Item",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 441, "y": 190 }
+    ]
+  },
+  {
+    "name": "Near Blockburg",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 207, "y": 142 }
+    ]
+  },
+  {
+    "name": "North Blue Tree",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 374, "y": 44 }
+    ]
+  },
+  {
+    "name": "South Blue Tree",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 321, "y": 268 }
+    ]
+  }
+]
