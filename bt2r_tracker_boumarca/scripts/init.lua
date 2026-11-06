@@ -17,6 +17,7 @@ Tracker:AddLocations("locations/jungle/jungle_back.json")
 Tracker:AddLocations("locations/jungle/jungle_northeast.json")
 Tracker:AddLocations("locations/jungle/jungle_island.json")
 Tracker:AddLocations("locations/jungle/morkla_dungeon.json")
+Tracker:AddLocations("locations/darkwoods/darkwoods_front.json")
 
 Tracker:AddLayouts("layouts/itemgrid.json")
 Tracker:AddLayouts("layouts/tracker.json")
