@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Sick Zombie",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1265, "y": 198 }
+    ]
+  },
+  {
+    "name": "Monsterton Shop",
+    "sections": [
+      {
+        "name": "Left Item",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Middle Item",
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "Right Item",
+        "item_count": 1,
+        "capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1222, "y": 195 }
+    ]
+  },
+  {
+    "name": "Monsterton Shop 2nd Floor",
+    "sections": [
+      {
+        "name": "Bard Song",
+        "item_count": 1
+      },
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1222, "y": 178 }
+    ]
+  },
+  {
+    "name": "Monsterton Ledge",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1134, "y": 164 }
+    ]
+  },
+  {
+    "name": "Periwinkle Woods Ghost",
+    "sections": [
+      {
+        "name": "Buried Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1234, "y": 47 },
+      { "map": "overworld", "x": 1170, "y": 139 }
+    ]
+  },
+  {
+    "name": "Monsterton South House",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1185, "y": 220 }
+    ]
+  },
+  {
+    "name": "Monsterton North House",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1176, "y": 150 }
+    ]
+  }
+]

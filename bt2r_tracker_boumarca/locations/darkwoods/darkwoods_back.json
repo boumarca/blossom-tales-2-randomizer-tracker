@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Mansion Ledge Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 4
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1385, "y": 84 }
+    ]
+  },
+  {
+    "name": "Trader Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1300, "y": 232 }
+    ]
+  },
+  {
+    "name": "Periwinkle Woods Mausoleum",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1234, "y": 23 }
+    ]
+  },
+  {
+    "name": "Periwinkle Woods Combat Mausoleum",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1378, "y": 148 }
+    ]
+  }
+]
