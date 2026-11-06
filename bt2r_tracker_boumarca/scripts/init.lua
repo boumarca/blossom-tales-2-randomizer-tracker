@@ -21,5 +21,6 @@ Tracker:AddLocations("locations/darkwoods/darkwoods_front.json")
 Tracker:AddLocations("locations/darkwoods/monsterton.json")
 Tracker:AddLocations("locations/darkwoods/darkwoods_back.json")
 
+Tracker:AddLocations("locations/canyon/canyon_island.json")
 Tracker:AddLayouts("layouts/itemgrid.json")
 Tracker:AddLayouts("layouts/tracker.json")

@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Bard Note Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 562, "y": 829 }
+    ]
+  },
+  {
+    "name": "Water Bomb Cave Top Chest",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 455, "y": 790 }
+    ]
+  },
+  {
+    "name": "Prisoner Bard",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      },
+      {
+        "name": "Song",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 548, "y": 834 }
+    ]
+  },
+  {
+    "name": "Combat Mausoleum",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 668, "y": 860 }
+    ]
+  },
+  
+  {
+    "name": "River Access Bone",
+    "sections": [
+      {
+        "name": "bone",
+        "item_count": 1,
+		"capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 537, "y": 740 }
+    ]
+  },
+  {
+    "name": "Camper Bone",
+    "sections": [
+      {
+        "name": "bone",
+        "item_count": 1,
+		"capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 674, "y": 755 }
+    ]
+  },
+  {
+    "name": "Bard Area Bone",
+    "sections": [
+      {
+        "name": "bone",
+        "item_count": 1,
+		"capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 590, "y": 822 }
+    ]
+  },
+  {
+    "name": "Mausoleum Bone",
+    "sections": [
+      {
+        "name": "bone",
+        "item_count": 1,
+		"capture_item": true
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 673, "y": 822 }
+    ]
+  },
+ 
+  {
+    "name": "Camper Chest",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 630, "y": 735 }
+    ]
+  }
+]
