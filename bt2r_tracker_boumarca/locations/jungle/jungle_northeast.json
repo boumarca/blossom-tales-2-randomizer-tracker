@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Jungle Northeast Ladder Cave",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1310, "y": 542 }
+    ]
+  },
+  {
+    "name": "Jungle Northeast Combat Mausoleum",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1330, "y": 445 }
+    ]
+  },
+  {
+    "name": "Jungle Northeast Riverside",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1310, "y": 542 }
+    ]
+  },
+  {
+    "name": "Jungle Northeast Bomb Rock",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1293, "y": 478 }
+    ]
+  }
+]

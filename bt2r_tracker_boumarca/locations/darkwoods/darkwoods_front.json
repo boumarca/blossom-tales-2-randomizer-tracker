@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Periwinkle Woods Front Northern Note Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1039, "y": 152 }
+    ]
+  },
+  {
+    "name": "Periwinkle Woods Front Southern Note Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1060, "y": 418 }
+    ]
+  },
+  {
+    "name": "Owl Tree Area Cave",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1110, "y": 98 }
+    ]
+  },
+  {
+    "name": "Periwinkle Woods Front Bomb Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 4
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1213, "y": 405 }
+    ]
+  },
+  {
+    "name": "Periwinkle Woods Front River Cave",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1340, "y": 322 }
+    ]
+  },
+  {
+    "name": "Owl",
+    "sections": [
+      {
+        "name": "Boomerang",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1091, "y": 20 }
+    ]
+  },
+  {
+    "name": "Farm",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1084, "y": 207 }
+    ]
+  },
+  {
+    "name": "UFO",
+    "sections": [
+      {
+        "name": "Reward",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1353, "y": 406 }
+    ]
+  },
+  {
+    "name": "Cup Minigame",
+    "sections": [
+      {
+        "name": "Prize",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1211, "y": 310 }
+    ]
+  },
+  {
+    "name": "Singing Ghosts Minigame",
+    "sections": [
+      {
+        "name": "Prize",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1070, "y": 293 }
+    ]
+  },
+  {
+    "name": "Owl Tree Area",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1138, "y": 68 }
+    ]
+  },
+  {
+    "name": "Farmer House",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1083, "y": 172 }
+    ]
+  },
+  {
+    "name": "Blue Tent",
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1203, "y": 321 }
+    ]
+  },
+  {
+    "name": "Green Tent",
+    "sections": [
+      {
+        "name": "Chests",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 1235, "y": 311 }
+    ]
+  }
+]
