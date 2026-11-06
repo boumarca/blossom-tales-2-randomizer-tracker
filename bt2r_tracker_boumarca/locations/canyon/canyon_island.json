@@ -3,7 +3,7 @@
     "name": "Bard Note Cave",
     "sections": [
       {
-        "name": "Chests",
+        "name": "Chest",
         "item_count": 1
       }
     ],
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "name": "Water Bomb Cave Top Chest",
+    "name": "Water Bomb Cave Top",
     "sections": [
       {
         "name": "Chests",
@@ -43,7 +43,7 @@
     "name": "Combat Mausoleum",
     "sections": [
       {
-        "name": "Chests",
+        "name": "Chest",
         "item_count": 1
       }
     ],
@@ -56,60 +56,60 @@
     "name": "River Access Bone",
     "sections": [
       {
-        "name": "bone",
+        "name": "Bone",
         "item_count": 1,
-		"capture_item": true
+		    "capture_item": true
       }
     ],
-    "map_locations": [
-      { "map": "overworld", "x": 537, "y": 740 }
+      "map_locations": [
+        { "map": "overworld", "x": 537, "y": 740 }
     ]
   },
   {
     "name": "Camper Bone",
     "sections": [
       {
-        "name": "bone",
+        "name": "Bone",
         "item_count": 1,
-		"capture_item": true
+		    "capture_item": true
       }
     ],
-    "map_locations": [
-      { "map": "overworld", "x": 674, "y": 755 }
+      "map_locations": [
+        { "map": "overworld", "x": 674, "y": 755 }
     ]
   },
   {
     "name": "Bard Area Bone",
     "sections": [
       {
-        "name": "bone",
+        "name": "Bone",
         "item_count": 1,
-		"capture_item": true
+		    "capture_item": true
       }
     ],
-    "map_locations": [
-      { "map": "overworld", "x": 590, "y": 822 }
+      "map_locations": [
+        { "map": "overworld", "x": 590, "y": 822 }
     ]
   },
   {
     "name": "Mausoleum Bone",
     "sections": [
       {
-        "name": "bone",
+        "name": "Bone",
         "item_count": 1,
-		"capture_item": true
+		    "capture_item": true
       }
     ],
-    "map_locations": [
-      { "map": "overworld", "x": 673, "y": 822 }
+      "map_locations": [
+        { "map": "overworld", "x": 673, "y": 822 }
     ]
   },
  
   {
-    "name": "Camper Chest",
+    "name": "Camper",
     "sections": [
       {
-        "name": "Chests",
+        "name": "Chest",
         "item_count": 1
       }
     ],
