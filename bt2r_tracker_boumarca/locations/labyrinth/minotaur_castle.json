@@ -1,0 +1,30 @@
+[
+    {
+    "name": "Minotaur King's Castle",
+    "sections": [
+      {
+        "name": "Boulder Room Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Lower Left Balcony Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Laser Eye Bridge Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Moving Platform Room Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Upper Balcony Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      { "map": "overworld", "x": 183, "y": 28 }
+    ]
+  }
+]

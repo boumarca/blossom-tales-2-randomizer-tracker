@@ -25,6 +25,7 @@ Tracker:AddLocations("locations/darkwoods/mansion_dungeon.json")
 Tracker:AddLocations("locations/labyrinth/labyrinth_front.json")
 Tracker:AddLocations("locations/labyrinth/blockburg.json")
 Tracker:AddLocations("locations/labyrinth/labyrinth_back.json")
+Tracker:AddLocations("locations/labyrinth/minotaur_castle.json")
 
 Tracker:AddLayouts("layouts/itemgrid.json")
 Tracker:AddLayouts("layouts/tracker.json")
