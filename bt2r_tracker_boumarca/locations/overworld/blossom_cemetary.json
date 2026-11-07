@@ -1,38 +1,45 @@
 [
   {
-    "name": "Peg Cave",
-    "sections": [
+    "name": "Blossom Cemetary",
+    "color": "#328C38",
+    "children": [
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 696, "y": 341 }
-    ]
-  },
-  {
-    "name": "Lantern Guy",
-    "sections": [
+        "name": "Peg Cave",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 696, "y": 341 }
+        ]
+      },
       {
-        "name": "Torch",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 687, "y": 288 }
-    ]
-  },
-  {
-    "name": "Cemetary Ghost",
-    "sections": [
+        "name": "Lantern Guy",
+        "sections": [
+          {
+            "name": "Torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 687, "y": 288 }
+        ]
+      },
       {
-        "name": "Give Resurrection Potion",
-        "item_count": 1
+        "name": "Cemetary Ghost",
+        "sections": [
+          {
+            "name": "Give Resurrection Potion",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 718, "y": 358 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 718, "y": 358 }
     ]
   }
 ]
+

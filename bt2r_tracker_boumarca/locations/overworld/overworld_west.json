@@ -1,74 +1,82 @@
 [
   {
-    "name": "Western Overworld Bomb Cave",
-    "sections": [
+    "name": "Blossomdale",
+    "color": "#328C38",
+    "access_rules": ["bombs", "flippers", "boomerang", "sword2, grapplehook"],
+    "children": [
       {
-        "name": "Chests",
-        "item_count": 4
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 499, "y": 478 }
-    ]
-  },
-  {
-    "name": "Pond Cave",
-    "sections": [
+        "name": "Western Overworld Bomb Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 499, "y": 478 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 587, "y": 446 }
-    ]
-  },
-  {
-    "name": "Flower Shop",
-    "sections": [
+        "name": "Pond Cave",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 587, "y": 446 }
+        ]
+      },
       {
-        "name": "Flower Collection Reward",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 559, "y": 325 }
-    ]
-  },
-  {
-    "name": "Racing Minigame",
-    "sections": [
+        "name": "Flower Shop",
+        "sections": [
+          {
+            "name": "Flower Collection Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 559, "y": 325 }
+        ]
+      },
       {
-        "name": "Prize",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 559, "y": 408 }
-    ]
-  },
-  {
-    "name": "Western Overworld Bomb Rock",
-    "sections": [
+        "name": "Racing Minigame",
+        "sections": [
+          {
+            "name": "Prize",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 559, "y": 408 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 414, "y": 360 }
-    ]
-  },
-  {
-    "name": "Western Overworld Hidden Trees",
-    "sections": [
+        "name": "Western Overworld Bomb Rock",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 414, "y": 360 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
+        "name": "Western Overworld Hidden Trees",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 522, "y": 271 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 522, "y": 271 }
     ]
   }
 ]
+

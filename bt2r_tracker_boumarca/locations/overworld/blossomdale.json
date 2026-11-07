@@ -1,199 +1,205 @@
 [
   {
-    "name": "Blossomdale Outskirts Cave",
-    "sections": [
+    "name": "Blossomdale",
+    "color": "#328C38",
+    "children": [  
       {
-        "name": "Chests",
-        "item_count": 2
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 602, "y": 567 },
-      { "map": "overworld", "x": 802, "y": 552 }
-    ]
-  },
-  {
-    "name": "Blossomdale Outskirts Note Cave",
-    "sections": [
-      {
-        "name": "Chests",
-        "item_count": 4
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 623, "y": 608 }
-    ]
-  },
-  {
-    "name": "Blacksmith",
-    "sections": [
-      {
-        "name": "Forged item",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 717, "y": 536 }
-    ]
-  },
-  {
-    "name": "Grandma",
-    "sections": [
-      {
-        "name": "First gift",
-        "item_count": 1
+        "name": "Blossomdale Outskirts Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 602, "y": 567 },
+          { "map": "overworld", "x": 802, "y": 552 }
+        ]
       },
       {
-        "name": "Second gift",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 666, "y": 607 }
-    ]
-  },
-  {
-    "name": "Bow Minigame",
-    "sections": [
-      {
-        "name": "Prize",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 709, "y": 571 }
-    ]
-  },
-  {
-    "name": "Post Office",
-    "sections": [
-      {
-        "name": "First Reward",
-        "item_count": 1
+        "name": "Blossomdale Outskirts Note Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 623, "y": 608 }
+        ]
       },
       {
-        "name": "Final Reward",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 681, "y": 545 }
-    ]
-  },
-  {
-    "name": "Blossomdale Shop",
-    "sections": [
-      {
-        "name": "Left Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Blacksmith",
+        "sections": [
+          {
+            "name": "Forged item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 717, "y": 536 }
+        ]
       },
       {
-        "name": "Middle Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Grandma",
+        "sections": [
+          {
+            "name": "First gift",
+            "item_count": 1
+          },
+          {
+            "name": "Second gift",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 666, "y": 607 }
+        ]
       },
       {
-        "name": "Right Item",
-        "item_count": 1,
-        "capture_item": true
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 751, "y": 568 }
-    ]
-  },
-  {
-    "name": "Blossomdale Tavern",
-    "sections": [
-      {
-        "name": "Bard Song",
-        "item_count": 1
+        "name": "Bow Minigame",
+        "sections": [
+          {
+            "name": "Prize",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 709, "y": 571 }
+        ]
       },
       {
-        "name": "Basement",
-        "item_count": 4
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 680, "y": 524 }
-    ]
-  },
-  {
-    "name": "Blossomdale South Left House",
-    "sections": [
-      {
-        "name": "Crate Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 721, "y": 606 }
-    ]
-  },
-  {
-    "name": "Blossomdale South Right House",
-    "sections": [
-      {
-        "name": "Table Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 750, "y": 603 }
-    ]
-  },
-  {
-    "name": "Blossomdale Potion House",
-    "sections": [
-      {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 740, "y": 545 }
-    ]
-  },
-  {
-    "name": "Blossomdale North House",
-    "sections": [
-      {
-        "name": "Chests",
-        "item_count": 2
+        "name": "Post Office",
+        "sections": [
+          {
+            "name": "First Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Final Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 681, "y": 545 }
+        ]
       },
       {
-        "name": "Torch Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 740, "y": 545 }
-    ]
-  },
-  {
-    "name": "Blossomdale Bomb Rock",
-    "sections": [
+        "name": "Blossomdale Shop",
+        "sections": [
+          {
+            "name": "Left Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Middle Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Right Item",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 751, "y": 568 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 758, "y": 623 }
-    ]
-  },
-  {
-    "name": "Tavern Sleeping Guy",
-    "sections": [
+        "name": "Blossomdale Tavern",
+        "sections": [
+          {
+            "name": "Bard Song",
+            "item_count": 1
+          },
+          {
+            "name": "Basement",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 680, "y": 524 }
+        ]
+      },
       {
-        "name": "Buried Treasure Chest",
-        "item_count": 1
+        "name": "Blossomdale South Left House",
+        "sections": [
+          {
+            "name": "Crate Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 721, "y": 606 }
+        ]
+      },
+      {
+        "name": "Blossomdale South Right House",
+        "sections": [
+          {
+            "name": "Table Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 750, "y": 603 }
+        ]
+      },
+      {
+        "name": "Blossomdale Potion House",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 740, "y": 545 }
+        ]
+      },
+      {
+        "name": "Blossomdale North House",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 2
+          },
+          {
+            "name": "Torch Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 740, "y": 545 }
+        ]
+      },
+      {
+        "name": "Blossomdale Bomb Rock",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 758, "y": 623 }
+        ]
+      },
+      {
+        "name": "Tavern Sleeping Guy",
+        "sections": [
+          {
+            "name": "Buried Treasure Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 660, "y": 524 },
+          { "map": "overworld", "x": 788, "y": 422 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 660, "y": 524 },
-      { "map": "overworld", "x": 788, "y": 422 }
     ]
   }
 ]
