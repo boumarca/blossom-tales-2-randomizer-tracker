@@ -17,7 +17,11 @@
     },
     {
         "name": "CanOpenNoteDoor",
-        "access_rules": ["instrument", "songopensesame"]
+        "access_rules": ["instrument, songopensesame"]
+    },
+    {
+        "name": "CanWakeUpPeople",
+        "access_rules": ["instrument, songwakeup"]
     },
 
     {
@@ -47,23 +51,39 @@
 
     { "name": "Mushroom", "access_rules": ["@AnyOverworld"] },
     { "name": "Clover", "access_rules": ["@AnyOverworld"] },
-    { "name": "Tulip", "access_rules": ["@AnyOverworld"] },
+    { "name": "Lily", "access_rules": ["@AnyDarkWoods"] },
     { "name": "RootWeed", "access_rules": ["@AnyDarkWoods"] },
     { "name": "MoonFlower", "access_rules": ["@AnyDarkWoods"] },
     { "name": "Apple", "access_rules": ["@AnyOverworld"] },
+    { "name": "Tulip", "access_rules": ["@AnyOverworld"] },
+    { "name": "Willow", "access_rules": ["@AnyJungle"] },
+    { "name": "Skyblossom", "access_rules": ["@AnyJungle"] },
+    { "name": "CanyonWisp", "access_rules": ["@AnyJungle"] },
     { "name": "Orange", "access_rules": ["@AnyJungle"] },
     { "name": "Snailshell", "access_rules": ["@AnyJungleBeach"] },
     { "name": "Seaweed", "access_rules": ["@AnyJungleBeach, fishingrod"] },
     { "name": "Starfish", "access_rules": ["@AnyJungleBeach"] },
     { "name": "Chrysanthemum", "access_rules": ["@AnyOverworld"] },
     { "name": "Aster", "access_rules": ["@AnyDarkWoods, @CanCutBushes"] },
+    { "name": "Sunkiss", "access_rules": ["@AnyCanyon"] },
+    { "name": "DesertPuff", "access_rules": ["@AnyCanyon"] },
+    { "name": "WaterDrop", "access_rules": ["@AnyCanyon"] },
+    { "name": "FlameTongue", "access_rules": ["@AnyCanyon"] },
+    { "name": "CactusRose", "access_rules": ["@AnyCanyon"] },
     { "name": "PurpleMushroom", "access_rules": ["@AnyDarkWoods"] },
     { "name": "RedMushroom", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "GreenMushroom", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "Poinsettia", "access_rules": ["@AnyLabyrinth"] },
+    { "name": "Bellflower", "access_rules": ["@AnyLabyrinth"] },
+    { "name": "Daisy", "access_rules": ["@AnyLabyrinth"] },
+    { "name": "Crab", "access_rules": ["fishingrod, @AnyCanyon", "fishingrod, @Morkla Dungeon"] },
+    { "name": "Fish1", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyOverworld", "fishingrod, @AnyLabyrinth"] },
     { "name": "Fish5", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyDarkWoods"] },
     { "name": "Fish7", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyJungle"] },
 
     { "name": "CanCraftJarHealth", "access_rules": ["@Apple, @Mushroom, @Clover, @Tulip"] },
     { "name": "CanCraftJarSlowTime", "access_rules": ["@RootWeed, @Snailshell, @RedMushroom, @Fish7"] },
     { "name": "CanCraftJarResurrection", "access_rules": ["@Orange, @Seaweed, @Chrysanthemum, @Starfish"] },
-    { "name": "CanCraftJarGhost", "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"] }
+    { "name": "CanCraftJarGhost", "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"] },
+    { "name": "CanCraftJarSpeedster", "access_rules": ["@Lily, @GreenMushroom, @Crab, @Fish1"] }
 ]

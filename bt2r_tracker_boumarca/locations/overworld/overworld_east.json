@@ -9,7 +9,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -21,7 +22,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanOpenNoteDoor"]
           }
         ],
         "map_locations": [
@@ -33,7 +35,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@Apple, flippers", "@Apple, bombs", "@Apple, boomerang"]
           }
         ],
         "map_locations": [
@@ -68,7 +71,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": ["torch"]
           }
         ],
         "map_locations": [

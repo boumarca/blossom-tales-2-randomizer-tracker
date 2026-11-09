@@ -14,7 +14,11 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 6
+            "item_count": 6,
+            "access_rules": [
+              "@CanOpenNoteDoor, @CanSwitchLevers, bombs",
+              "@CanOpenNoteDoor, @CanSwitchLevers, @CanCraftJarSpeedster"
+            ]
           }
         ],
         "map_locations": [
@@ -38,7 +42,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 5
+            "item_count": 5,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -50,7 +55,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 3
+            "item_count": 3,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -62,7 +68,12 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": [
+              "flippers, grapplehook, bow",
+              "flippers, grapplehook, boomerang",
+              "flippers, grapplehook, swordbeams"
+            ]
           }
         ],
         "map_locations": [
@@ -78,7 +89,8 @@
           },
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["treeseed, @Eastern Overworld, @Western Overworld, @Northern Overworld, grapplehook"]
           }
         ],
         "map_locations": [
@@ -90,7 +102,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["honeycomb:10"]
           }
         ],
         "map_locations": [
@@ -102,7 +115,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["sword"]
           }
         ],
         "map_locations": [
@@ -152,7 +166,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage"]
           }
         ],
         "map_locations": [
@@ -176,7 +191,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -188,7 +204,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -200,7 +217,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -212,7 +230,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["boomerang, bombs"]
           }
         ],
         "map_locations": [
@@ -224,7 +243,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -260,7 +280,8 @@
         "sections": [
           {
             "name": "Buried Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["shovel"]
           }
         ],
         "map_locations": [
@@ -272,7 +293,8 @@
         "sections": [
           {
             "name": "Master Sword",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["flippers"]
           }
         ],
         "map_locations": [
@@ -284,7 +306,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [

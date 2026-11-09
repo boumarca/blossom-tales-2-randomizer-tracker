@@ -201,7 +201,7 @@
           {
             "name": "Buried Treasure Chest",
             "item_count": 1,
-            "access_rules": ["instrument, songwakeup, shovel"]
+            "access_rules": ["@CanWakeUpPeople, shovel"]
           }
         ],
         "map_locations": [
