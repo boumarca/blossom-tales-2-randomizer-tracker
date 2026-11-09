@@ -9,15 +9,18 @@
         "sections": [
           {
             "name": "Rat Room Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanSwitchLevers, @CanDoDamage"]
           },
           {
             "name": "King Orchid Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["goldkey:1, torch, @CanDoDamage"]
           },
           {
             "name": "King Orchid Sword&Shield",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": ["goldkey:1, torch, @CanDoDamage"]
           }
         ],
         "map_locations": [

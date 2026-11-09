@@ -21,7 +21,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["flippers, @CanOpenNoteDoor, @CanCraftJarSlowTime, tribow"]
           }
         ],
         "map_locations": [
@@ -61,7 +62,8 @@
         "sections": [
           {
             "name": "Prize",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bow"]
           }
         ],
         "map_locations": [
@@ -73,11 +75,13 @@
         "sections": [
           {
             "name": "First Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@Anchortown, @Dustwoods, @Western Overworld, @Dark Woods Front, @Canyon Steppes South, @Monsterton, @Jungle Back, @flippers, @Blockburg"]
           },
           {
             "name": "Final Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@Anchortown, @Dustwoods, @Western Overworld, @Dark Woods Front, @Canyon Steppes South, @Monsterton, @Jungle Back, @flippers, @Blockburg, @Northern Overworld, @Canyon Island, @Jungle Front, @Canyon North"]
           }
         ],
         "map_locations": [
@@ -112,11 +116,13 @@
         "sections": [
           {
             "name": "Bard Song",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["instrument"]
           },
           {
             "name": "Basement",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -168,7 +174,8 @@
           },
           {
             "name": "Torch Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["torch"]
           }
         ],
         "map_locations": [
@@ -180,7 +187,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -192,7 +200,8 @@
         "sections": [
           {
             "name": "Buried Treasure Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["instrument, songwakeup, shovel"]
           }
         ],
         "map_locations": [

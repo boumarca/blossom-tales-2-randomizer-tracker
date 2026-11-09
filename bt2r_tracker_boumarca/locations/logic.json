@@ -15,6 +15,10 @@
         "name": "CanHitTargets",
         "access_rules": ["grapplehook", "bow"]
     },
+    {
+        "name": "CanOpenNoteDoor",
+        "access_rules": ["instrument", "songopensesame"]
+    },
 
     {
         "name": "AnyOverworld",
@@ -47,7 +51,11 @@
     { "name": "RootWeed", "access_rules": ["@AnyDarkWoods"] },
     { "name": "MoonFlower", "access_rules": ["@AnyDarkWoods"] },
     { "name": "Apple", "access_rules": ["@AnyOverworld"] },
+    { "name": "Orange", "access_rules": ["@AnyJungle"] },
     { "name": "Snailshell", "access_rules": ["@AnyJungleBeach"] },
+    { "name": "Seaweed", "access_rules": ["@AnyJungleBeach, fishingrod"] },
+    { "name": "Starfish", "access_rules": ["@AnyJungleBeach"] },
+    { "name": "Chrysanthemum", "access_rules": ["@AnyOverworld"] },
     { "name": "Aster", "access_rules": ["@AnyDarkWoods, @CanCutBushes"] },
     { "name": "PurpleMushroom", "access_rules": ["@AnyDarkWoods"] },
     { "name": "RedMushroom", "access_rules": ["@AnyDarkWoods"] },
@@ -56,5 +64,6 @@
 
     { "name": "CanCraftJarHealth", "access_rules": ["@Apple, @Mushroom, @Clover, @Tulip"] },
     { "name": "CanCraftJarSlowTime", "access_rules": ["@RootWeed, @Snailshell, @RedMushroom, @Fish7"] },
+    { "name": "CanCraftJarResurrection", "access_rules": ["@Orange, @Seaweed, @Chrysanthemum, @Starfish"] },
     { "name": "CanCraftJarGhost", "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"] }
 ]
