@@ -1,42 +1,49 @@
 [
   {
-    "name": "Mansion",
-    "sections": [
+    "name": "Mansion Dungeon",
+    "color": "#45325B",
+    "access_rules": ["@Dark Woods Back, boomerang"],
+    "children": [
       {
-        "name": "Memory Room Falling Chest",
-        "item_count": 1
-      },
-      {
-        "name": "Roller Secret Room Chest",
-        "item_count": 1
-      },
-      {
-        "name": "Laser Secret Room Chests",
-        "item_count": 3
-      },
-      {
-        "name": "Laser Memory Puzzle Room Falling Chest",
-        "item_count": 1
-      },
-      {
-        "name": "Path Puzzle Room Falling Chest",
-        "item_count": 1
-      },
-      {
-        "name": "Vampire Boss Chest",
-        "item_count": 1
-      },
-      {
-        "name": "Scientist Boss Reward",
-        "item_count": 1
-      },
-      {
-        "name": "Scientist Boss Chest",
-        "item_count": 1
+        "name": "Mansion",
+        "sections": [
+          {
+            "name": "Memory Room Falling Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Roller Secret Room Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Laser Secret Room Chests",
+            "item_count": 3
+          },
+          {
+            "name": "Laser Memory Puzzle Room Falling Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Path Puzzle Room Falling Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Vampire Boss Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Scientist Boss Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Scientist Boss Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1341, "y": 38 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1341, "y": 38 }
     ]
   }
 ]

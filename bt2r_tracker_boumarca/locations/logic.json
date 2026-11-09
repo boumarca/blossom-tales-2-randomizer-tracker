@@ -1,0 +1,86 @@
+[
+    {
+        "name": "CanDoDamage",
+        "access_rules": ["sword", "bombs", "bow", "boomerang", "falcon", "beemedallion"]
+    },
+    {
+        "name": "CanCutBushes",
+        "access_rules": ["sword", "boomerang", "grapplehook", "bombs", "torch", "shovel"]
+    },
+    {
+        "name": "CanSwitchLevers",
+        "access_rules": ["sword", "grapplehook", "boomerang", "bow"]
+    },
+    {
+        "name": "CanHitTargets",
+        "access_rules": ["grapplehook", "bow"]
+    },
+
+    {
+        "name": "AnyOverworld",
+        "access_rules": ["@Blossomdale", "@Blossom Cemetary", "@Eastern Overworld", "@Western Overworld", "@Northern Overworld"]
+    },
+    {
+        "name": "AnyJungle",
+        "access_rules": ["@Jungle Front", "@Anchortown", "@Jungle Back", "@Jungle Island", "@Jungle Northeast"]
+    },
+    {
+        "name": "AnyJungleBeach",
+        "access_rules": ["@Jungle Back", "@Jungle Island"]
+    },
+    {
+        "name": "AnyCanyon",
+        "access_rules": ["@Canyon Island"]
+    },
+    {
+        "name": "AnyDarkWoods",
+        "access_rules": ["@Dark Woods Front", "@Monsterton", "@Dark Woods Back"]
+    },
+    {
+        "name": "AnyLabyrinth",
+        "access_rules": ["@Labyrinth Front", "@Blockburg", "@Labyrinth Back"]
+    },
+
+    {
+        "name": "Mushroom",
+        "access_rules": ["@AnyOverworld"]
+    },
+    {
+        "name": "Clover",
+        "access_rules": ["@AnyOverworld"]
+    },
+    {
+        "name": "Tulip",
+        "access_rules": ["@AnyOverworld"]
+    },
+    {
+        "name": "MoonFlower",
+        "access_rules": ["@AnyDarkWoods"]
+    },
+    {
+        "name": "Apple",
+        "access_rules": ["@AnyOverworld"]
+    },
+    {
+        "name": "Aster",
+        "access_rules": ["@AnyDarkWoods, @CanCutBushes"]
+    },
+        {
+        "name": "PurpleMushroom",
+        "access_rules": ["@AnyDarkWoods"]
+    },
+        {
+        "name": "Fish5",
+        "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyDarkWoods"]
+    },
+
+
+    {
+        "name": "CanCraftJarHealth",
+        "access_rules": ["@Apple, @Mushroom, @Clover, @Tulip"]
+    },
+    {
+        "name": "CanCraftJarHealth",
+        "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"]
+    }
+]

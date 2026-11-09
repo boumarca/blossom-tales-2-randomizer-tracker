@@ -1,6 +1,6 @@
 [
   {
-    "name": "Blossomdale",
+    "name": "Western Overworld",
     "color": "#328C38",
     "access_rules": ["bombs", "flippers", "boomerang", "sword2, grapplehook"],
     "children": [

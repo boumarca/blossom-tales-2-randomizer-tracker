@@ -1,193 +1,213 @@
 [
   {
-    "name": "Jungle Back Note Cave",
-    "sections": [
+    "name": "Jungle Back",
+    "color": "#00553F",
+    "access_rules": ["@Anchortown"],
+    "children": [
       {
-        "name": "Chests",
-        "item_count": 4
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1391, "y": 652 }
-    ]
-  },
-  {
-    "name": "Jungle Back Pirate Cave",
-    "sections": [
-      {
-        "name": "Chests",
-        "item_count": 2
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1385, "y": 786 }
-    ]
-  },
-  {
-    "name": "Jungle Ghost",
-    "sections": [
-      {
-        "name": "Give Heart Necklace",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 991, "y": 739 }
-    ]
-  },
-  {
-    "name": "First Primate",
-    "sections": [
-      {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1381, "y": 860 }
-    ]
-  },
-  {
-    "name": "Pirate Shop",
-    "sections": [
-      {
-        "name": "Left Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Jungle Back Note Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1391, "y": 652 }
+        ]
       },
       {
-        "name": "Middle Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Jungle Back Pirate Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1385, "y": 786 }
+        ]
       },
       {
-        "name": "Right Item",
-        "item_count": 1,
-        "capture_item": true
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1333, "y": 864 }
-    ]
-  },
-  {
-    "name": "Horse Bard",
-    "sections": [
+        "name": "Jungle Ghost",
+        "sections": [
+          {
+            "name": "Give Heart Necklace",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 991, "y": 739 }
+        ]
+      },
       {
-        "name": "Song",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1111, "y": 835 }
-    ]
-  },
-  {
-    "name": "Sand Castle Trader",
-    "sections": [
+        "name": "First Primate",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1381, "y": 860 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1057, "y": 848 }
-    ]
-  },
-  {
-    "name": "Necklace Fishing Spot",
-    "sections": [
+        "name": "Pirate Shop",
+        "sections": [
+          {
+            "name": "Left Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Middle Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Right Item",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1333, "y": 864 }
+        ]
+      },
       {
-        "name": "Fish",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 997, "y": 856 }
-    ]
-  },
-  {
-    "name": "Trader Bridge",
-    "sections": [
+        "name": "Horse Bard",
+        "sections": [
+          {
+            "name": "Song",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1111, "y": 835 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1061, "y": 829 }
-    ]
-  },
-  {
-    "name": "Morkla Bomb Rock",
-    "sections": [
+        "name": "Sand Castle Trader",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1057, "y": 848 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1258, "y": 621 }
-    ]
-  },
-  {
-    "name": "Jungle Back Ledge",
-    "sections": [
+        "name": "Jungle Back West",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 984, "y": 606 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1270, "y": 793 }
-    ]
-  },
-  {
-    "name": "Jungle Back Morkla Trees",
-    "sections": [
+        "name": "Jungle Back Southwest",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 979, "y": 793 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1291, "y": 654 }
-    ]
-  },
-  {
-    "name": "Pirate Tree Trunk",
-    "sections": [
+        "name": "Necklace Fishing Spot",
+        "sections": [
+          {
+            "name": "Fish",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 997, "y": 856 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1288, "y": 810 }
-    ]
-  },
-  {
-    "name": "Pirate Tree Trunk",
-    "sections": [
+        "name": "Trader Bridge",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1061, "y": 829 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1288, "y": 810 }
-    ]
-  },
-  {
-    "name": "Pirate Camp",
-    "sections": [
+        "name": "Morkla Bomb Rock",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1258, "y": 621 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
+        "name": "Jungle Back Ledge",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1270, "y": 793 }
+        ]
+      },
+      {
+        "name": "Jungle Back Morkla Trees",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1291, "y": 654 }
+        ]
+      },
+      {
+        "name": "Pirate Tree Trunk",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1288, "y": 810 }
+        ]
+      },
+      {
+        "name": "Pirate Camp",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1368, "y": 806 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1368, "y": 806 }
     ]
   }
 ]
+

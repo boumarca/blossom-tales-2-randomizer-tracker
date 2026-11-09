@@ -1,61 +1,72 @@
 [
   {
-    "name": "Sewers",
-    "sections": [
-      {
-        "name": "Reward",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 157, "y": 138 }
-    ]
+    "name": "CanAccessCyclops",
+    "access_rules": ["@Blockburg, @CanSwitchLevers, grapplehook"]
   },
   {
-    "name": "Blockburg Shop",
-    "sections": [
+    "name": "Blockburg",
+    "color": "#A5A29E",
+    "access_rules": ["@Labyrinth 17x18, @CanSwitchLevers, @CanHitTargets"],
+    "children": [
       {
-        "name": "Left Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Sewers",
+        "sections": [
+          {
+            "name": "Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 157, "y": 138 }
+        ]
       },
       {
-        "name": "Middle Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Blockburg Shop",
+        "sections": [
+          {
+            "name": "Left Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Middle Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Right Item",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 217, "y": 167 }
+        ]
       },
       {
-        "name": "Right Item",
-        "item_count": 1,
-        "capture_item": true
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 217, "y": 167 }
-    ]
-  },
-  {
-    "name": "Cyclops",
-    "sections": [
+        "name": "Cyclops",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 92, "y": 328 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
+        "name": "South of Village",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 151, "y": 342 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 92, "y": 328 }
-    ]
-  },
-  {
-    "name": "South of Village",
-    "sections": [
-      {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 151, "y": 342 }
     ]
   }
 ]

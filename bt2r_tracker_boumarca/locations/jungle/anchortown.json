@@ -1,65 +1,72 @@
 [
   {
-    "name": "Anchortown Fisherman",
-    "sections": [
+    "name": "Anchortown",
+    "color": "#00553F",
+    "access_rules": ["@Jungle Front"],
+    "children": [
       {
-        "name": "Fishing Rod",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1053, "y": 697 }
-    ]
-  },
-  {
-    "name": "Anchortown Shop",
-    "sections": [
-      {
-        "name": "Left Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Anchortown Fisherman",
+        "sections": [
+          {
+            "name": "Fishing Rod",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1053, "y": 697 }
+        ]
       },
       {
-        "name": "Middle Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Anchortown Shop",
+        "sections": [
+          {
+            "name": "Left Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Middle Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Right Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Fish Collection Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1121, "y": 714 }
+        ]
       },
       {
-        "name": "Right Item",
-        "item_count": 1,
-        "capture_item": true
+        "name": "Anchortown Southwest House",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1074, "y": 738 }
+        ]
       },
       {
-        "name": "Fish Collection Reward",
-        "item_count": 1
+        "name": "Anchortown Waterfall North",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1137, "y": 609 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1121, "y": 714 }
-    ]
-  },
-  {
-    "name": "Anchortown Southwest House",
-    "sections": [
-      {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1074, "y": 738 }
-    ]
-  },
-  {
-    "name": "Anchortown Waterfall North",
-    "sections": [
-      {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 1137, "y": 609 }
     ]
   }
 ]

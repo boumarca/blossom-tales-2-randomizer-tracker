@@ -5,6 +5,7 @@ Tracker:AddItems("items/keypieces.json")
 
 Tracker:AddMaps("maps/maps.json")
 
+Tracker:AddLocations("locations/logic.json")
 Tracker:AddLocations("locations/overworld/blossomdale.json")
 Tracker:AddLocations("locations/overworld/blossom_cemetary.json")
 Tracker:AddLocations("locations/overworld/orchid_tomb.json")

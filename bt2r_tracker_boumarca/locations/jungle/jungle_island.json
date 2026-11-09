@@ -1,135 +1,142 @@
 [
   {
-    "name": "Jungle Island Note Cave",
-    "sections": [
+    "name": "Jungle Island",
+    "color": "#00553F",
+    "access_rules": ["@Eastern Overworld, flippers", "@Canyon Island, grapplehook"],
+    "children": [
       {
-        "name": "Chests",
-        "item_count": 4
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 911, "y": 728 }
-    ]
-  },
-  {
-    "name": "Jungle Island Bomb Cave",
-    "sections": [
+        "name": "Jungle Island Note Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 911, "y": 728 }
+        ]
+      },
       {
-        "name": "Chests",
-        "item_count": 6
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 887, "y": 780 }
-    ]
-  },
-  {
-    "name": "Skull Cave",
-    "sections": [
+        "name": "Jungle Island Bomb Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 6
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 887, "y": 780 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 951, "y": 660 }
-    ]
-  },
-  {
-    "name": "Troll Hunter",
-    "sections": [
+        "name": "Skull Cave",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 951, "y": 660 }
+        ]
+      },
       {
-        "name": "Reward",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 799, "y": 790 }
-    ]
-  },
-  {
-    "name": "Lighthouse Trader",
-    "sections": [
+        "name": "Troll Hunter",
+        "sections": [
+          {
+            "name": "Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 799, "y": 790 }
+        ]
+      },
       {
-        "name": "Buried Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 950, "y": 852 },
-      { "map": "overworld", "x": 872, "y": 625 }
-    ]
-  },
-  {
-    "name": "Hunter Camp",
-    "sections": [
+        "name": "Lighthouse Trader",
+        "sections": [
+          {
+            "name": "Buried Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 950, "y": 852 },
+          { "map": "overworld", "x": 872, "y": 625 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 812, "y": 802 }
-    ]
-  },
-  {
-    "name": "Hunter Bomb Rock",
-    "sections": [
+        "name": "Hunter Camp",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 812, "y": 802 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 836, "y": 813 }
-    ]
-  },
-  {
-    "name": "Secret Island",
-    "sections": [
+        "name": "Hunter Bomb Rock",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 836, "y": 813 }
+        ]
+      },
       {
-        "name": "Buried Chests",
-        "item_count": 6
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 823, "y": 887 }
-    ]
-  },
-  {
-    "name": "Lighthouse Cape",
-    "sections": [
+        "name": "Secret Island",
+        "sections": [
+          {
+            "name": "Buried Chests",
+            "item_count": 6
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 823, "y": 887 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 969, "y": 870 }
-    ]
-  },
-  {
-    "name": "Lighthouse",
-    "sections": [
+        "name": "Lighthouse Cape",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 969, "y": 870 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 967, "y": 854 }
-    ]
-  },
-  {
-    "name": "Mermaid",
-    "sections": [
+        "name": "Lighthouse",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 967, "y": 854 }
+        ]
+      },
       {
-        "name": "Chest",
-        "item_count": 1
+        "name": "Mermaid",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 742, "y": 875 }
+        ]
       }
-    ],
-    "map_locations": [
-      { "map": "overworld", "x": 742, "y": 875 }
     ]
   }
 ]
