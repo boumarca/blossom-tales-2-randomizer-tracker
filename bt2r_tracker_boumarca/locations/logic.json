@@ -41,46 +41,20 @@
         "access_rules": ["@Labyrinth Front", "@Blockburg", "@Labyrinth Back"]
     },
 
-    {
-        "name": "Mushroom",
-        "access_rules": ["@AnyOverworld"]
-    },
-    {
-        "name": "Clover",
-        "access_rules": ["@AnyOverworld"]
-    },
-    {
-        "name": "Tulip",
-        "access_rules": ["@AnyOverworld"]
-    },
-    {
-        "name": "MoonFlower",
-        "access_rules": ["@AnyDarkWoods"]
-    },
-    {
-        "name": "Apple",
-        "access_rules": ["@AnyOverworld"]
-    },
-    {
-        "name": "Aster",
-        "access_rules": ["@AnyDarkWoods, @CanCutBushes"]
-    },
-        {
-        "name": "PurpleMushroom",
-        "access_rules": ["@AnyDarkWoods"]
-    },
-        {
-        "name": "Fish5",
-        "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyDarkWoods"]
-    },
+    { "name": "Mushroom", "access_rules": ["@AnyOverworld"] },
+    { "name": "Clover", "access_rules": ["@AnyOverworld"] },
+    { "name": "Tulip", "access_rules": ["@AnyOverworld"] },
+    { "name": "RootWeed", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "MoonFlower", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "Apple", "access_rules": ["@AnyOverworld"] },
+    { "name": "Snailshell", "access_rules": ["@AnyJungleBeach"] },
+    { "name": "Aster", "access_rules": ["@AnyDarkWoods, @CanCutBushes"] },
+    { "name": "PurpleMushroom", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "RedMushroom", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "Fish5", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyDarkWoods"] },
+    { "name": "Fish7", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyJungle"] },
 
-
-    {
-        "name": "CanCraftJarHealth",
-        "access_rules": ["@Apple, @Mushroom, @Clover, @Tulip"]
-    },
-    {
-        "name": "CanCraftJarHealth",
-        "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"]
-    }
+    { "name": "CanCraftJarHealth", "access_rules": ["@Apple, @Mushroom, @Clover, @Tulip"] },
+    { "name": "CanCraftJarSlowTime", "access_rules": ["@RootWeed, @Snailshell, @RedMushroom, @Fish7"] },
+    { "name": "CanCraftJarGhost", "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"] }
 ]
