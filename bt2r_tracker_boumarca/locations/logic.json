@@ -78,12 +78,19 @@
     { "name": "Daisy", "access_rules": ["@AnyLabyrinth"] },
     { "name": "Crab", "access_rules": ["fishingrod, @AnyCanyon", "fishingrod, @Morkla Dungeon"] },
     { "name": "Fish1", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyOverworld", "fishingrod, @AnyLabyrinth"] },
+    { "name": "Fish2", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyOverworld"] },
+    { "name": "Fish3", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyOverworld", "fishingrod, @AnyJungle" ] },
+    { "name": "Fish4", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyCanyon", "fishingrod, @AnyDarkWoods"] },
     { "name": "Fish5", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyDarkWoods"] },
+    { "name": "Fish6", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyDarkWoods", "fishingrod, @AnyLabyrinth"] },
     { "name": "Fish7", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyJungle"] },
+    { "name": "Fish8", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyJungle", "fishingrod, @AnyCanyon"] },
+    { "name": "Fish9", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyCanyon"] },
+    { "name": "Fish10", "access_rules": ["fishingrod, @Northern Overworld", "fishingrod, @AnyLabyrinth"] },
 
-    { "name": "CanCraftJarHealth", "access_rules": ["@Apple, @Mushroom, @Clover, @Tulip"] },
-    { "name": "CanCraftJarSlowTime", "access_rules": ["@RootWeed, @Snailshell, @RedMushroom, @Fish7"] },
-    { "name": "CanCraftJarResurrection", "access_rules": ["@Orange, @Seaweed, @Chrysanthemum, @Starfish"] },
-    { "name": "CanCraftJarGhost", "access_rules": ["@MoonFlower, @Aster, @PurpleMushroom, @Fish5"] },
-    { "name": "CanCraftJarSpeedster", "access_rules": ["@Lily, @GreenMushroom, @Crab, @Fish1"] }
+    { "name": "CanCraftJarHealth", "access_rules": ["jar, @Apple, @Mushroom, @Clover, @Tulip"] },
+    { "name": "CanCraftJarSlowTime", "access_rules": ["jar, @RootWeed, @Snailshell, @RedMushroom, @Fish7"] },
+    { "name": "CanCraftJarResurrection", "access_rules": ["jar, @Orange, @Seaweed, @Chrysanthemum, @Starfish"] },
+    { "name": "CanCraftJarGhost", "access_rules": ["jar, @MoonFlower, @Aster, @PurpleMushroom, @Fish5"] },
+    { "name": "CanCraftJarSpeedster", "access_rules": ["jar, @Lily, @GreenMushroom, @Crab, @Fish1"] }
 ]

@@ -129,32 +129,38 @@
           {
             "name": "Trade 1",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["@Fish1, @Fish3, @Fish2"]
           },
           {
             "name": "Trade 2",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["@Fish Trader/Trade 1, @Fish1, @Fish3, @Fish5"]
           },
           {
             "name": "Trade 3",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["@Fish Trader/Trade 2, @Fish5, @Fish4, @Fish2"]
           },
           {
             "name": "Trade 4",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["@Fish Trader/Trade 3, @Fish8, @Fish6, @Fish4"]
           },
           {
             "name": "Trade 5",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["@Fish Trader/Trade 4, @Fish5, @Fish6, @Fish7"]
           },
           {
             "name": "Trade 6",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["@Fish Trader/Trade 5, @Fish8, @Fish9, @Fish10"]
           }
         ],
         "map_locations": [

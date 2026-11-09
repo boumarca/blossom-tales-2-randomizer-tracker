@@ -2,6 +2,7 @@
   {
     "name": "Canyon Island",
     "color": "#A07840",
+    "access_rules": ["@Canyon Southeast"],
     "children": [
       {
         "name": "Bard Note Cave",
