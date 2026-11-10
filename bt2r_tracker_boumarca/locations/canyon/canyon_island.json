@@ -9,7 +9,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage, @CanOpenNoteDoor"]
           }
         ],
         "map_locations": [
@@ -21,7 +22,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 3
+            "item_count": 3,
+            "access_rules": ["flippers, bombs"]
           }
         ],
         "map_locations": [
@@ -33,11 +35,13 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage"]
           },
           {
             "name": "Song",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage"]
           }
         ],
         "map_locations": [
@@ -49,7 +53,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage, @CanSwitchLevers"]
           }
         ],
         "map_locations": [
