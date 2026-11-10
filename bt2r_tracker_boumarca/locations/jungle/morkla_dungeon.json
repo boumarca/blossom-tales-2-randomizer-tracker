@@ -12,47 +12,58 @@
         "sections": [
           {
             "name": "Room 3 Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["sword, torch, @CanDoDamage", "sword, flippers"]
           },
           {
             "name": "Room 4 Chests",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": ["sword, flippers, @CanSwitchLevers"]
           },
           {
             "name": "Torch Room Falling Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["torch, sword, @CanDoDamage", "torch, sword, flippers"]
           },
           {
             "name": "Blue Gem Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["sword, flippers, @CanSwitchLevers"]
           },
           {
             "name": "Flooded Treasure Room",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["flippers, sword, @CanSwitchLevers", "flippers, torch"]
           },
           {
             "name": "Northern Secret Room Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["flippers, sword, bombs"]
           },
           {
             "name": "Southern Secret Room Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs, torch", "bombs, flippers"]
           },
           {
             "name": "Green Gem Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["sword, flippers, @CanSwitchLevers"]
           },
           {
             "name": "Pirate Boss Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage, torch, sword, goldkey:1", "@CanDoDamage, flippers"]
           },
           {
             "name": "Octopus Boss Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage, flippers, sword, bluegem, greengem"]
           },
           {
             "name": "Octopus Boss Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage, flippers, sword, bluegem, greengem"]
           }
         ],
         "map_locations": [

@@ -60,6 +60,8 @@
     { "name": "Skyblossom", "access_rules": ["@AnyJungle"] },
     { "name": "CanyonWisp", "access_rules": ["@AnyJungle"] },
     { "name": "Orange", "access_rules": ["@AnyJungle"] },
+    { "name": "Spikeshell", "access_rules": ["@AnyJungleBeach"] },
+    { "name": "Clam", "access_rules": ["@AnyJungleBeach"] },
     { "name": "Snailshell", "access_rules": ["@AnyJungleBeach"] },
     { "name": "Seaweed", "access_rules": ["@AnyJungleBeach, fishingrod"] },
     { "name": "Starfish", "access_rules": ["@AnyJungleBeach"] },

@@ -36,7 +36,8 @@
           },
           {
             "name": "Fish Collection Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@Fish1, @Fish2, @Fish3, @Fish4, @Fish5, @Fish6, @Fish7, @Fish8, @Fish9, @Fish10"]
           }
         ],
         "map_locations": [

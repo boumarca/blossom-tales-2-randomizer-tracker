@@ -9,7 +9,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["bombs, @CanOpenNoteDoor, grapplehook"]
           }
         ],
         "map_locations": [
@@ -21,7 +22,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -33,7 +35,8 @@
         "sections": [
           {
             "name": "Give Heart Necklace",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanCraftJarGhost, heartnecklace"]
           }
         ],
         "map_locations": [
@@ -58,17 +61,20 @@
           {
             "name": "Left Item",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["flippers"]
           },
           {
             "name": "Middle Item",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["flippers"]
           },
           {
             "name": "Right Item",
             "item_count": 1,
-            "capture_item": true
+            "capture_item": true,
+            "access_rules": ["flippers"]
           }
         ],
         "map_locations": [
@@ -80,7 +86,8 @@
         "sections": [
           {
             "name": "Song",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["grapplehook"]
           }
         ],
         "map_locations": [
@@ -92,7 +99,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@Spikeshell, @Clam, @Snailshell"]
           }
         ],
         "map_locations": [
@@ -104,7 +112,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["flippers", "bombs", "boomerang"]
           }
         ],
         "map_locations": [
@@ -128,7 +137,8 @@
         "sections": [
           {
             "name": "Fish",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanCraftJarGhost, fishingrod"]
           }
         ],
         "map_locations": [
@@ -152,7 +162,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -176,7 +187,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -200,7 +212,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [

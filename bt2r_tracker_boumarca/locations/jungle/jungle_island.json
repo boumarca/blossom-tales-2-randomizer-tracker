@@ -9,7 +9,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["@CanOpenNoteDoor"]
           }
         ],
         "map_locations": [
@@ -21,7 +22,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 6
+            "item_count": 6,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -33,7 +35,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["flippers"]
           }
         ],
         "map_locations": [
@@ -45,7 +48,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["grapplehook, bow"]
           }
         ],
         "map_locations": [
@@ -57,7 +61,8 @@
         "sections": [
           {
             "name": "Buried Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["shovel, @Fish7, @Fish3, @Fish8"]
           }
         ],
         "map_locations": [
@@ -70,7 +75,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["grapplehook"]
           }
         ],
         "map_locations": [
@@ -82,7 +88,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -94,7 +101,8 @@
         "sections": [
           {
             "name": "Buried Chests",
-            "item_count": 6
+            "item_count": 6,
+            "access_rules": ["flippers, shovel"]
           }
         ],
         "map_locations": [
@@ -130,7 +138,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanWakeUpPeople"]
           }
         ],
         "map_locations": [
