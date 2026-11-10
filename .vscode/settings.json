@@ -24,6 +24,10 @@
     {
     "fileMatch": [ "manifest.json" ],
     "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/manifest.json"
+    },
+    {
+    "fileMatch": [ "settings.json" ],
+    "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/settings.json"
     }
   ]
 }
