@@ -9,7 +9,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": ["@CanOpenNoteDoor, bombs, sword"]
           }
         ],
         "map_locations": [
@@ -21,7 +22,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanOpenNoteDoor, @CanSwitchLevers"]
           }
         ],
         "map_locations": [
@@ -33,7 +35,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["bow"]
           }
         ],
         "map_locations": [
@@ -45,7 +48,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -57,7 +61,13 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 3
+            "item_count": 3,
+            "access_rules": [
+              "teleporter, flippers, bombs, grapplehook",
+              "teleporter, flippers, boomerang",
+              "teleporter, flippers, @Dark Woods Back"
+            ]
+
           }
         ],
         "map_locations": [
@@ -69,7 +79,8 @@
         "sections": [
           {
             "name": "Boomerang",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanWakeUpPeople"]
           }
         ],
         "map_locations": [
@@ -81,7 +92,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage"]
           }
         ],
         "map_locations": [
@@ -93,7 +105,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage"]
           }
         ],
         "map_locations": [
@@ -117,7 +130,9 @@
         "sections": [
           {
             "name": "Prize",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanSwitchLevers"]
+            
           }
         ],
         "map_locations": [

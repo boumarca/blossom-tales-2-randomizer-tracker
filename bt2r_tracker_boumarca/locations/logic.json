@@ -68,6 +68,7 @@
     { "name": "Chrysanthemum", "access_rules": ["@AnyOverworld"] },
     { "name": "Aster", "access_rules": ["@AnyDarkWoods, @CanCutBushes"] },
     { "name": "Sunkiss", "access_rules": ["@AnyCanyon"] },
+    { "name": "Jojoba", "access_rules": ["@AnyCanyon"] },
     { "name": "DesertPuff", "access_rules": ["@AnyCanyon"] },
     { "name": "WaterDrop", "access_rules": ["@AnyCanyon"] },
     { "name": "FlameTongue", "access_rules": ["@AnyCanyon"] },
@@ -75,6 +76,7 @@
     { "name": "PurpleMushroom", "access_rules": ["@AnyDarkWoods"] },
     { "name": "RedMushroom", "access_rules": ["@AnyDarkWoods"] },
     { "name": "GreenMushroom", "access_rules": ["@AnyDarkWoods"] },
+    { "name": "Guts", "access_rules": ["@CanDoDamage"] },
     { "name": "Poinsettia", "access_rules": ["@AnyLabyrinth"] },
     { "name": "Bellflower", "access_rules": ["@AnyLabyrinth"] },
     { "name": "Daisy", "access_rules": ["@AnyLabyrinth"] },
@@ -94,5 +96,6 @@
     { "name": "CanCraftJarSlowTime", "access_rules": ["jar, @RootWeed, @Snailshell, @RedMushroom, @Fish7"] },
     { "name": "CanCraftJarResurrection", "access_rules": ["jar, @Orange, @Seaweed, @Chrysanthemum, @Starfish"] },
     { "name": "CanCraftJarGhost", "access_rules": ["jar, @MoonFlower, @Aster, @PurpleMushroom, @Fish5"] },
+    { "name": "CanCraftJarFire", "access_rules": ["jar, @Sunkiss, @Guts, @FlameTongue, @Jojoba"] },
     { "name": "CanCraftJarSpeedster", "access_rules": ["jar, @Lily, @GreenMushroom, @Crab, @Fish1"] }
 ]

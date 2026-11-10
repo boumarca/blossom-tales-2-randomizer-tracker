@@ -12,7 +12,8 @@
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanCraftJarFire"]
           }
         ],
         "map_locations": [
@@ -75,7 +76,8 @@
         "sections": [
           {
             "name": "Buried Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanCraftJarGhost, shovel"]
           }
         ],
         "map_locations": [

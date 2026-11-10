@@ -1,5 +1,17 @@
 [
   {
+    "name": "CanAccessMansion2",
+    "access_rules": ["@Mansion Dungeon, goldkey:1, @CanDoDamage"]
+  },
+  {
+    "name": "CanAccessMansion3",
+    "access_rules": ["@CanAccessMansion2, teleporter"]
+  },
+  {
+    "name": "CanAccessMansionBoss",
+    "access_rules": ["@CanAccessMansion2, goldkey:4, @CanDoDamage, teleporter"]
+  },
+  {
     "name": "Mansion Dungeon",
     "color": "#45325B",
     "access_rules": ["@Dark Woods Back, boomerang"],
@@ -9,35 +21,48 @@
         "sections": [
           {
             "name": "Memory Room Falling Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanDoDamage"]
+          },          
+          {
+            "name": "Roller Room Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansion2,grapplehook", "@CanAccessMansion3, teleporter"]
           },
           {
             "name": "Roller Secret Room Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansion2,grapplehook, bombs", "@CanAccessMansion3, teleporter, bombs"]
           },
           {
             "name": "Laser Secret Room Chests",
-            "item_count": 3
+            "item_count": 3,
+            "access_rules": ["@CanAccessMansion3, bombs"]
           },
           {
             "name": "Laser Memory Puzzle Room Falling Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansion3"]
           },
           {
             "name": "Path Puzzle Room Falling Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansion3, @CanDoDamage, teleporter"]
           },
           {
             "name": "Vampire Boss Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansion2, goldkey:4, @CanDoDamage"]
           },
           {
             "name": "Scientist Boss Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansionBoss"]
           },
           {
             "name": "Scientist Boss Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessMansionBoss"]
           }
         ],
         "map_locations": [
