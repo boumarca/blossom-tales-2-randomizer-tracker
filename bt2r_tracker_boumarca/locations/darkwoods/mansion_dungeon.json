@@ -1,7 +1,7 @@
 [
   {
     "name": "CanAccessMansion2",
-    "access_rules": ["@Mansion Dungeon, goldkey:1, @CanDoDamage"]
+    "access_rules": ["@Mansion Dungeon, $has_enough_keys|Mansion Dungeon|1, @CanDoDamage"]
   },
   {
     "name": "CanAccessMansion3",
@@ -9,7 +9,7 @@
   },
   {
     "name": "CanAccessMansionBoss",
-    "access_rules": ["@CanAccessMansion2, goldkey:4, @CanDoDamage, teleporter"]
+    "access_rules": ["@CanAccessMansion2, $has_enough_keys|Mansion Dungeon|4, @CanDoDamage, teleporter"]
   },
   {
     "name": "Mansion Dungeon",

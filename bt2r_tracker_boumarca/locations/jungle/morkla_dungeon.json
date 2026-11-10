@@ -53,7 +53,7 @@
           {
             "name": "Pirate Boss Chest",
             "item_count": 1,
-            "access_rules": ["@CanDoDamage, torch, sword, goldkey:1", "@CanDoDamage, flippers"]
+            "access_rules": ["@CanDoDamage, torch, sword, $has_enough_keys|Morkla Dungeon|1", "@CanDoDamage, flippers"]
           },
           {
             "name": "Octopus Boss Reward",
