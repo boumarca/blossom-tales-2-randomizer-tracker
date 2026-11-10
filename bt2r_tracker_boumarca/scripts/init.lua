@@ -5,6 +5,9 @@ Tracker:AddItems("items/keypieces.json")
 
 Tracker:AddMaps("maps/maps.json")
 
+ScriptHost:LoadScript("scripts/helpers.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
+
 Tracker:AddLocations("locations/logic.json")
 Tracker:AddLocations("locations/overworld/blossomdale.json")
 Tracker:AddLocations("locations/overworld/blossom_cemetary.json")

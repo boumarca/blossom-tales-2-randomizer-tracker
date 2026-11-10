@@ -300,7 +300,7 @@
           {
             "name": "Master Sword",
             "item_count": 1,
-            "access_rules": ["flippers"]
+            "access_rules": ["flippers, $can_lift_master_sword"]
           }
         ],
         "map_locations": [
