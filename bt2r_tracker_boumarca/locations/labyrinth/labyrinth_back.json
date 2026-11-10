@@ -13,7 +13,8 @@
         "sections": [
           {
             "name": "Chests",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": ["bombs"]
           }
         ],
         "map_locations": [
@@ -25,7 +26,8 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@Labyrinth 15x16"]
           }
         ],
         "map_locations": [

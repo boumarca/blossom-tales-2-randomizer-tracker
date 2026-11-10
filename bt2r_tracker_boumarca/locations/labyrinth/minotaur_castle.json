@@ -1,5 +1,24 @@
 [
   {
+    "name": "CanAccessCastle2",
+    "access_rules": ["@Minotaur King's Castle Dungeon, teleporter, grapplehook, @CanSwitchLevers, bow"]
+  },
+  {
+    "name": "CanAccessCastle3",
+    "access_rules": ["@Minotaur King's Castle Dungeon, goldkey:1"]
+  },
+  {
+    "name": "CanAccessCastle4",
+    "access_rules": ["@CanAccessCastle3, goldkey:2"]
+  },
+  {
+    "name": "CanAccessCastle5",
+    "access_rules": [
+      "@CanAccessCastle4, grapplehook, teleporter, torch, @CanSwitchLevers, shield3",
+      "@CanAccessCastle4, grapplehook, teleporter, torch, @CanSwitchLevers, @CanDoDamage"
+    ]
+  },
+  {
     "name": "Minotaur King's Castle Dungeon",
     "color": "#A5A29E",
     "access_rules": ["@Labyrinth 15x16"],
@@ -9,23 +28,28 @@
         "sections": [
           {
             "name": "Boulder Room Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessCastle2"]
           },
           {
             "name": "Lower Left Balcony Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessCastle3"]
           },
           {
             "name": "Laser Eye Bridge Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessCastle3, shield3"]
           },
           {
             "name": "Moving Platform Room Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessCastle4, grapplehook", "@CanAccessCastle4, teleporter"]
           },
           {
             "name": "Upper Balcony Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["@CanAccessCastle5"]
           }
         ],
         "map_locations": [
