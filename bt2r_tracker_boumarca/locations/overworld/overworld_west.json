@@ -79,6 +79,34 @@
         "map_locations": [
           { "map": "overworld", "x": 522, "y": 271 }
         ]
+      },
+      {
+        "name": "Western Overworld Statue",
+        "sections": [
+          {
+            "name": "Chipmunk Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_chipmunk_full.png",
+            "chest_unopened_img": "images/items/statue_chipmunk_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 520, "y": 543 }
+        ]
+      },
+      {
+        "name": "Cemetary Ledge Statue",
+        "sections": [
+          {
+            "name": "Chipmunk Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_chipmunk_full.png",
+            "chest_unopened_img": "images/items/statue_chipmunk_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 657, "y": 396 }
+        ]
       }
     ]
   }

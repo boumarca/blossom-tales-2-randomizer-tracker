@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Chipmunk Statues",
+        "color": "#328C38",
+        "sections": [
+          {
+            "name": "All statues",
+            "item_count": 1,
+            "access_rules": ["statue_chipmunk:6"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1450, "y": 24 }
+        ]
+    },
+    {
+        "name": "Frog Statues",
+        "color": "#00553F",
+        "sections": [
+          {
+            "name": "All statues",
+            "item_count": 1,
+            "access_rules": ["statue_frog:6"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1450, "y": 48 }
+        ]
+    },
+    {
+        "name": "Lizard Statues",
+        "color": "#A07840",
+        "sections": [
+          {
+            "name": "All statues",
+            "item_count": 1,
+            "access_rules": ["statue_lizard:6"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1450, "y": 72 }
+        ]
+    },
+    {
+        "name": "Bunny Statues",
+        "color": "#45325B",
+        "sections": [
+          {
+            "name": "All statues",
+            "item_count": 1,
+            "access_rules": ["statue_bunny:6"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1450, "y": 96 }
+        ]
+    }
+]

@@ -145,6 +145,20 @@
         "map_locations": [
           { "map": "overworld", "x": 742, "y": 875 }
         ]
+      },
+      {
+        "name": "Jungle Island Statue",
+        "sections": [
+          {
+            "name": "Frog Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_frog_full.png",
+            "chest_unopened_img": "images/items/statue_frog_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 886, "y": 796 }
+        ]
       }
     ]
   }

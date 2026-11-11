@@ -54,6 +54,20 @@
         "map_locations": [
           { "map": "overworld", "x": 1293, "y": 478 }
         ]
+      },
+      {
+        "name": "Jungle Northeast Statue",
+        "sections": [
+          {
+            "name": "Frog Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_frog_full.png",
+            "chest_unopened_img": "images/items/statue_frog_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1289, "y": 561 }
+        ]
       }
     ]
   }

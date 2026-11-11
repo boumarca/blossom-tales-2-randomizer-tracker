@@ -54,6 +54,34 @@
         "map_locations": [
           { "map": "overworld", "x": 1378, "y": 148 }
         ]
+      },
+      {
+        "name": "Dark Woods East Statue",
+        "sections": [
+          {
+            "name": "Bunny Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_bunny_full.png",
+            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1389, "y": 191 }
+        ]
+      },
+      {
+        "name": "Dark Woods Cemetary Statue",
+        "sections": [
+          {
+            "name": "Bunny Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_bunny_full.png",
+            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1161, "y": 57 }
+        ]
       }
     ]
   }

@@ -16,7 +16,7 @@
           { "map": "overworld", "x": 173, "y": 848 }
         ]
       },
-       {
+      {
         "name": "Dustwood Shop",
         "sections": [
           {
@@ -39,8 +39,6 @@
           { "map": "overworld", "x": 230, "y": 830 }
         ]
       },
-	 
-
       {
         "name": "Northwest House",
         "sections": [
@@ -52,8 +50,7 @@
         "map_locations": [
           { "map": "overworld", "x": 162, "y": 787 }
         ]
-      },
-      
+      },      
       {
         "name": "Southeast House",
         "sections": [
@@ -70,7 +67,6 @@
             { "map": "overworld", "x": 162, "y": 840 }
         ]
       }
-
     ]
   }
 ]

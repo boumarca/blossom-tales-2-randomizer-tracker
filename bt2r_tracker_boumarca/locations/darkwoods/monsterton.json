@@ -108,6 +108,20 @@
         "map_locations": [
           { "map": "overworld", "x": 1176, "y": 150 }
         ]
+      },
+      {
+        "name": "Monsterton Statue",
+        "sections": [
+          {
+            "name": "Bunny Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_bunny_full.png",
+            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1162, "y": 208 }
+        ]
       }
     ]
   }

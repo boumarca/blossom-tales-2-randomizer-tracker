@@ -79,5 +79,45 @@
     "img": "images/items/scroll.png",
     "codes": "scroll",
     "max_quantity": 4
+  },
+  {
+    "name": "Chipmunk Statue",
+    "type": "consumable",
+    "img": "images/items/statue_chipmunk.png",
+    "codes": "statue_chipmunk",
+    "max_quantity": 6,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Frog Statue",
+    "type": "consumable",
+    "img": "images/items/statue_frog.png",
+    "codes": "statue_frog",
+    "max_quantity": 6,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Lizard Statue",
+    "type": "consumable",
+    "img": "images/items/statue_lizard.png",
+    "codes": "statue_lizard",
+    "max_quantity": 6,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Bunny Statue",
+    "type": "consumable",
+    "img": "images/items/statue_bunny.png",
+    "codes": "statue_bunny",
+    "max_quantity": 6,
+    "display_as_fraction_of_max": true
+  },
+  {
+    "name": "Tree Lord Baby",
+    "type": "consumable",
+    "img": "images/items/seed_plot.png",
+    "codes": "seedplot",
+    "max_quantity": 5,
+    "display_as_fraction_of_max": true
   }
 ]

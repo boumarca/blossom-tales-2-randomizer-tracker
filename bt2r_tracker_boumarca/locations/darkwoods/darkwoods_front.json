@@ -186,6 +186,48 @@
         "map_locations": [
           { "map": "overworld", "x": 1235, "y": 311 }
         ]
+      },
+      {
+        "name": "Owl Tree Statue",
+        "sections": [
+          {
+            "name": "Bunny Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_bunny_full.png",
+            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1037, "y": 40 }
+        ]
+      },
+      {
+        "name": "Dark Woods West Statue",
+        "sections": [
+          {
+            "name": "Bunny Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_bunny_full.png",
+            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 969, "y": 268 }
+        ]
+      },
+      {
+        "name": "Dark Woods South Statue",
+        "sections": [
+          {
+            "name": "Bunny Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/items/statue_bunny_full.png",
+            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1241, "y": 399 }
+        ]
       }
     ]
   }
