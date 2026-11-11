@@ -105,6 +105,21 @@
         "map_locations": [
           { "map": "overworld", "x": 841, "y": 711 }
         ]
+      },
+      {
+        "name": "Overworld East Seed Plot",
+        "sections": [
+          {
+            "name": "Tree Lord Baby",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/treelordbaby.png",
+            "chest_unopened_img": "images/locations/seed_plot.png",
+            "access_rules": ["treeseed"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 846, "y": 534 }
+        ]
       }
     ]
   }

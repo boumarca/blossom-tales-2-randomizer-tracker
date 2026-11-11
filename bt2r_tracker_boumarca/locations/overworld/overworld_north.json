@@ -90,7 +90,7 @@
           {
             "name": "Reward",
             "item_count": 1,
-            "access_rules": ["treeseed, @Eastern Overworld, @Western Overworld, @Northern Overworld, grapplehook"]
+            "access_rules": ["treeseed, seedplot:5"]
           }
         ],
         "map_locations": [
@@ -361,6 +361,36 @@
         ],
         "map_locations": [
           { "map": "overworld", "x": 832, "y": 16 }
+        ]
+      },
+      {
+        "name": "Fishing Pond Seed Plot",
+        "sections": [
+          {
+            "name": "Tree Lord Baby",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/treelordbaby.png",
+            "chest_unopened_img": "images/locations/seed_plot.png",
+            "access_rules": ["treeseed"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 747, "y": 234 }
+        ]
+      },
+      {
+        "name": "Overworld North Seed Plot",
+        "sections": [
+          {
+            "name": "Tree Lord Baby",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/treelordbaby.png",
+            "chest_unopened_img": "images/locations/seed_plot.png",
+            "access_rules": ["treeseed, grapplehook"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 912, "y": 168 }
         ]
       }
     ]

@@ -107,6 +107,36 @@
         "map_locations": [
           { "map": "overworld", "x": 657, "y": 396 }
         ]
+      },
+      {
+        "name": "Overworld West Seed Plot",
+        "sections": [
+          {
+            "name": "Tree Lord Baby",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/treelordbaby.png",
+            "chest_unopened_img": "images/locations/seed_plot.png",
+            "access_rules": ["treeseed"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 499, "y": 547 }
+        ]
+      },
+      {
+        "name": "Minotaur Gate Seed Plot",
+        "sections": [
+          {
+            "name": "Tree Lord Baby",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/treelordbaby.png",
+            "chest_unopened_img": "images/locations/seed_plot.png",
+            "access_rules": ["treeseed"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 455, "y": 363 }
+        ]
       }
     ]
   }
