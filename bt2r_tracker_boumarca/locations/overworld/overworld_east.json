@@ -97,8 +97,8 @@
           {
             "name": "Chipmunk Statue",
             "item_count": 1,
-            "chest_opened_img": "images/items/statue_chipmunk_full.png",
-            "chest_unopened_img": "images/items/statue_chipmunk_empty.png",
+            "chest_opened_img": "images/locations/statue_chipmunk_full.png",
+            "chest_unopened_img": "images/locations/statue_chipmunk_empty.png",
             "access_rules": ["flippers"]
           }
         ],

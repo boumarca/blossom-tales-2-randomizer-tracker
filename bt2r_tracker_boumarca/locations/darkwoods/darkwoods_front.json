@@ -193,8 +193,8 @@
           {
             "name": "Bunny Statue",
             "item_count": 1,
-            "chest_opened_img": "images/items/statue_bunny_full.png",
-            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+            "chest_opened_img": "images/locations/statue_bunny_full.png",
+            "chest_unopened_img": "images/locations/statue_bunny_empty.png"
           }
         ],
         "map_locations": [
@@ -207,8 +207,8 @@
           {
             "name": "Bunny Statue",
             "item_count": 1,
-            "chest_opened_img": "images/items/statue_bunny_full.png",
-            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+            "chest_opened_img": "images/locations/statue_bunny_full.png",
+            "chest_unopened_img": "images/locations/statue_bunny_empty.png"
           }
         ],
         "map_locations": [
@@ -221,8 +221,8 @@
           {
             "name": "Bunny Statue",
             "item_count": 1,
-            "chest_opened_img": "images/items/statue_bunny_full.png",
-            "chest_unopened_img": "images/items/statue_bunny_empty.png"
+            "chest_opened_img": "images/locations/statue_bunny_full.png",
+            "chest_unopened_img": "images/locations/statue_bunny_empty.png"
           }
         ],
         "map_locations": [

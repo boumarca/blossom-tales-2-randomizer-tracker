@@ -226,8 +226,8 @@
           {
             "name": "Frog Statue",
             "item_count": 1,
-            "chest_opened_img": "images/items/statue_frog_full.png",
-            "chest_unopened_img": "images/items/statue_frog_empty.png"
+            "chest_opened_img": "images/locations/statue_frog_full.png",
+            "chest_unopened_img": "images/locations/statue_frog_empty.png"
           }
         ],
         "map_locations": [
@@ -240,8 +240,8 @@
           {
             "name": "Frog Statue",
             "item_count": 1,
-            "chest_opened_img": "images/items/statue_frog_full.png",
-            "chest_unopened_img": "images/items/statue_frog_empty.png"
+            "chest_opened_img": "images/locations/statue_frog_full.png",
+            "chest_unopened_img": "images/locations/statue_frog_empty.png"
           }
         ],
         "map_locations": [
