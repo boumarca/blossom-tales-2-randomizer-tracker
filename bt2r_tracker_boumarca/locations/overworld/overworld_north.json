@@ -17,7 +17,7 @@
             "item_count": 6,
             "access_rules": [
               "@CanOpenNoteDoor, @CanSwitchLevers, bombs",
-              "@CanOpenNoteDoor, @CanSwitchLevers, @CanCraftJarSpeedster"
+              "@CanOpenNoteDoor, @CanSwitchLevers, $can_craft_jar|Speedster"
             ]
           }
         ],
@@ -130,37 +130,37 @@
             "name": "Trade 1",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": ["@Fish1, @Fish3, @Fish2"]
+            "access_rules": ["$can_collect_ingredient|Fish1, $can_collect_ingredient|Fish3, $can_collect_ingredient|Fish2"]
           },
           {
             "name": "Trade 2",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": ["@Fish Trader/Trade 1, @Fish1, @Fish3, @Fish5"]
+            "access_rules": ["@Fish Trader/Trade 1, $can_collect_ingredient|Fish1, $can_collect_ingredient|Fish3, $can_collect_ingredient|Fish5"]
           },
           {
             "name": "Trade 3",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": ["@Fish Trader/Trade 2, @Fish5, @Fish4, @Fish2"]
+            "access_rules": ["@Fish Trader/Trade 2, $can_collect_ingredient|Fish5, $can_collect_ingredient|Fish4, $can_collect_ingredient|Fish2"]
           },
           {
             "name": "Trade 4",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": ["@Fish Trader/Trade 3, @Fish8, @Fish6, @Fish4"]
+            "access_rules": ["@Fish Trader/Trade 3, $can_collect_ingredient|Fish8, $can_collect_ingredient|Fish6, $can_collect_ingredient|Fish4"]
           },
           {
             "name": "Trade 5",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": ["@Fish Trader/Trade 4, @Fish5, @Fish6, @Fish7"]
+            "access_rules": ["@Fish Trader/Trade 4, $can_collect_ingredient|Fish5, $can_collect_ingredient|Fish6, $can_collect_ingredient|Fish7"]
           },
           {
             "name": "Trade 6",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": ["@Fish Trader/Trade 5, @Fish8, @Fish9, @Fish10"]
+            "access_rules": ["@Fish Trader/Trade 5, $can_collect_ingredient|Fish8, $can_collect_ingredient|Fish9, $can_collect_ingredient|Fish10"]
           }
         ],
         "map_locations": [

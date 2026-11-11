@@ -36,7 +36,7 @@
           {
             "name": "Give Heart Necklace",
             "item_count": 1,
-            "access_rules": ["@CanCraftJarGhost, heartnecklace"]
+            "access_rules": ["$can_craft_jar|Ghost, heartnecklace"]
           }
         ],
         "map_locations": [
@@ -100,7 +100,7 @@
           {
             "name": "Chest",
             "item_count": 1,
-            "access_rules": ["@Spikeshell, @Clam, @Snailshell"]
+            "access_rules": ["$can_collect_ingredient|Spikeshell, $can_collect_ingredient|Clam, $can_collect_ingredient|Snailshell"]
           }
         ],
         "map_locations": [
@@ -138,7 +138,7 @@
           {
             "name": "Fish",
             "item_count": 1,
-            "access_rules": ["@CanCraftJarGhost, fishingrod"]
+            "access_rules": ["$can_craft_jar|Ghost, fishingrod"]
           }
         ],
         "map_locations": [

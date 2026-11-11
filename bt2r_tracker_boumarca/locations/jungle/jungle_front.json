@@ -3,7 +3,7 @@
     "name": "Jungle Front",
     "color": "#00553F",
     "access_rules": [
-      "@Eastern Overworld, @CanCraftJarHealth", 
+      "@Eastern Overworld, $can_craft_jar|Health", 
       "@Eastern Overworld, flippers",
       "@Dark Woods Front, grapplehook"
     ],

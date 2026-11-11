@@ -37,7 +37,7 @@
           {
             "name": "Fish Collection Reward",
             "item_count": 1,
-            "access_rules": ["@Fish1, @Fish2, @Fish3, @Fish4, @Fish5, @Fish6, @Fish7, @Fish8, @Fish9, @Fish10"]
+            "access_rules": ["$can_collect_ingredient|Fish1, $can_collect_ingredient|Fish2, $can_collect_ingredient|Fish3, $can_collect_ingredient|Fish4, $can_collect_ingredient|Fish5, $can_collect_ingredient|Fish6, $can_collect_ingredient|Fish7, $can_collect_ingredient|Fish8, $can_collect_ingredient|Fish9, $can_collect_ingredient|Fish10"]
           }
         ],
         "map_locations": [

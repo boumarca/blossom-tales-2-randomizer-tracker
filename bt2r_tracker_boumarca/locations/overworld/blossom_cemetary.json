@@ -34,7 +34,7 @@
           {
             "name": "Give Resurrection Potion",
             "item_count": 1,
-            "access_rules": ["@CanCraftJarGhost, @CanCraftJarResurrection"]
+            "access_rules": ["$can_craft_jar|Ghost, $can_craft_jar|Resurrection"]
           }
         ],
         "map_locations": [

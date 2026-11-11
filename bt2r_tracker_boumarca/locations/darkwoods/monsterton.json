@@ -3,7 +3,7 @@
     "name": "Monsterton",
     "color": "#45325B",
     "access_rules": [
-      "@Dark Woods Front, @CanCraftJarGhost",
+      "@Dark Woods Front, $can_craft_jar|Ghost",
       "@Dark Woods Front, boomerang"
     ],
     "children": [
@@ -13,7 +13,7 @@
           {
             "name": "Reward",
             "item_count": 1,
-            "access_rules": ["@CanCraftJarFire"]
+            "access_rules": ["$can_craft_jar|Fire"]
           }
         ],
         "map_locations": [
@@ -77,7 +77,7 @@
           {
             "name": "Buried Chest",
             "item_count": 1,
-            "access_rules": ["@CanCraftJarGhost, shovel"]
+            "access_rules": ["$can_craft_jar|Ghost, shovel"]
           }
         ],
         "map_locations": [

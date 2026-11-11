@@ -62,7 +62,7 @@
           {
             "name": "Buried Chest",
             "item_count": 1,
-            "access_rules": ["shovel, @Fish7, @Fish3, @Fish8"]
+            "access_rules": ["shovel, $can_collect_ingredient|Fish7, $can_collect_ingredient|Fish3, $can_collect_ingredient|Fish8"]
           }
         ],
         "map_locations": [

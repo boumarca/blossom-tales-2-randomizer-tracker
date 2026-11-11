@@ -36,7 +36,7 @@
           {
             "name": "Flower Collection Reward",
             "item_count": 1,
-            "access_rules": ["@Lily, @MoonFlower, @Tulip, @Willow, @Skyblossom, @CanyonWisp, @Chrysanthemum, @Aster, @Sunkiss, @DesertPuff, @WaterDrop, @FlameTongue, @CactusRose, @Poinsettia, @Bellflower, @Daisy"]
+            "access_rules": ["$can_collect_ingredient|Lily, $can_collect_ingredient|MoonFlower, $can_collect_ingredient|Tulip, $can_collect_ingredient|Willow, $can_collect_ingredient|Skyblossom, $can_collect_ingredient|CanyonWisp, $can_collect_ingredient|Chrysanthemum, $can_collect_ingredient|Aster, $can_collect_ingredient|Sunkiss, $can_collect_ingredient|DesertPuff, $can_collect_ingredient|WaterDrop, $can_collect_ingredient|FlameTongue, $can_collect_ingredient|CactusRose, $can_collect_ingredient|Poinsettia, $can_collect_ingredient|Bellflower, $can_collect_ingredient|Daisy"]
           }
         ],
         "map_locations": [

@@ -60,44 +60,44 @@
         "access_rules": ["@Jungle Back", "@Canyon Southwest", "@Dark Woods Back"],
         "sections": [
           {
-            "name": "Trader 1",
+            "name": "Trade 1",
             "item_count": 1,
-            "access_rules": ["@Apple, @Mushroom, @Clover"]
+            "access_rules": ["$can_collect_ingredient|Apple, $can_collect_ingredient|Mushroom, $can_collect_ingredient|Clover"]
           },
           {
-            "name": "Trader 2",
+            "name": "Trade 2",            
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 1, @Chrysanthemum, @Orange, @Willow"]
+            "access_rules": ["@Trader Stan/Trade 1, $can_collect_ingredient|Chrysanthemum, $can_collect_ingredient|Orange, $can_collect_ingredient|Willow"]
           },
           {
-            "name": "Trader 3",
+            "name": "Trade 3",
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 2, @Skyblossom, @Clam, @Snailshell"]
+            "access_rules": ["@Trader Stan/Trade 2, $can_collect_ingredient|Skyblossom, $can_collect_ingredient|Clam, $can_collect_ingredient|Snailshell"]
           },
           {
-            "name": "Trader 4",
+            "name": "Trade 4",
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 3, @CanyonWisp, @Jojoba, @Sunkiss"]
+            "access_rules": ["@Trader Stan/Trade 3, $can_collect_ingredient|CanyonWisp, $can_collect_ingredient|Jojoba, $can_collect_ingredient|Sunkiss"]
           },
           {
-            "name": "Trader 5",
+            "name": "Trade 5",
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 4, @DesertPuff, @WaterDrop, @FlameTongue"]
+            "access_rules": ["@Trader Stan/Trade 4, $can_collect_ingredient|DesertPuff, $can_collect_ingredient|WaterDrop, $can_collect_ingredient|FlameTongue"]
           },
           {
-            "name": "Trader 6",
+            "name": "Trade 6",
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 5, @Aster, @Lily, @RootWeed"]
+            "access_rules": ["@Trader Stan/Trade 5, $can_collect_ingredient|Aster, $can_collect_ingredient|Lily, $can_collect_ingredient|RootWeed"]
           },
           {
-            "name": "Trader 7",
+            "name": "Trade 7",
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 6, @RedMushroom, @GreenMushroom, @PurpleMushroom"]
+            "access_rules": ["@Trader Stan/Trade 6, $can_collect_ingredient|RedMushroom, $can_collect_ingredient|GreenMushroom, $can_collect_ingredient|PurpleMushroom"]
           },
           {
-            "name": "Trader 8",
+            "name": "Trade 8",
             "item_count": 1,
-            "access_rules": ["@Trader Stan/Trade 7, @Poinsettia, @Bellflower, @Daisy"]
+            "access_rules": ["@Trader Stan/Trade 7, $can_collect_ingredient|Poinsettia, $can_collect_ingredient|Bellflower, $can_collect_ingredient|Daisy"]
           }
         ],
         "map_locations": [

@@ -22,7 +22,7 @@
           {
             "name": "Chests",
             "item_count": 4,
-            "access_rules": ["flippers, @CanOpenNoteDoor, @CanCraftJarSlowTime, tribow"]
+            "access_rules": ["flippers, @CanOpenNoteDoor, $can_craft_jar|SlowTime, tribow"]
           }
         ],
         "map_locations": [
@@ -77,12 +77,12 @@
           {
             "name": "First Reward",
             "item_count": 1,
-            "access_rules": ["@Anchortown, @Dustwoods, @Western Overworld, @Dark Woods Front, @Canyon Steppes South, @Monsterton, @Jungle Back, @flippers, @Blockburg"]
+            "access_rules": ["@Anchortown, @Dustwoods, @Western Overworld, @Dark Woods Front, @Canyon Steppes South, @Monsterton, @Jungle Back, flippers, @Blockburg"]
           },
           {
             "name": "Final Reward",
             "item_count": 1,
-            "access_rules": ["@Anchortown, @Dustwoods, @Western Overworld, @Dark Woods Front, @Canyon Steppes South, @Monsterton, @Jungle Back, @flippers, @Blockburg, @Northern Overworld, @Canyon Island, @Jungle Front, @Canyon North"]
+            "access_rules": ["@Anchortown, @Dustwoods, @Western Overworld, @Dark Woods Front, @Canyon Steppes South, @Monsterton, @Jungle Back, flippers, @Blockburg, @Northern Overworld, @Canyon Island, @Jungle Front, @Canyon North"]
           }
         ],
         "map_locations": [

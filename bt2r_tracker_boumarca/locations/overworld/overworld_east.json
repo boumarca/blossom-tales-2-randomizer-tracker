@@ -36,7 +36,7 @@
           {
             "name": "Reward",
             "item_count": 1,
-            "access_rules": ["@Apple, flippers", "@Apple, bombs", "@Apple, boomerang"]
+            "access_rules": ["$can_collect_ingredient|Apple, flippers", "$can_collect_ingredient|Apple, bombs", "$can_collect_ingredient|Apple, boomerang"]
           }
         ],
         "map_locations": [
