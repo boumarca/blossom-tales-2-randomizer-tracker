@@ -54,5 +54,56 @@
         "map_locations": [
           { "map": "overworld", "x": 1450, "y": 96 }
         ]
+    },
+    {
+        "name": "Trader Stan",
+        "access_rules": ["@Jungle Back", "@Canyon Southwest", "@Dark Woods Back"],
+        "sections": [
+          {
+            "name": "Trader 1",
+            "item_count": 1,
+            "access_rules": ["@Apple, @Mushroom, @Clover"]
+          },
+          {
+            "name": "Trader 2",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 1, @Chrysanthemum, @Orange, @Willow"]
+          },
+          {
+            "name": "Trader 3",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 2, @Skyblossom, @Clam, @Snailshell"]
+          },
+          {
+            "name": "Trader 4",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 3, @CanyonWisp, @Jojoba, @Sunkiss"]
+          },
+          {
+            "name": "Trader 5",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 4, @DesertPuff, @WaterDrop, @FlameTongue"]
+          },
+          {
+            "name": "Trader 6",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 5, @Aster, @Lily, @RootWeed"]
+          },
+          {
+            "name": "Trader 7",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 6, @RedMushroom, @GreenMushroom, @PurpleMushroom"]
+          },
+          {
+            "name": "Trader 8",
+            "item_count": 1,
+            "access_rules": ["@Trader Stan/Trade 7, @Poinsettia, @Bellflower, @Daisy"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1065, "y": 786 },
+          { "map": "overworld", "x": 61, "y": 790 },
+          { "map": "overworld", "x": 1303, "y": 200 }
+        ]
     }
 ]
