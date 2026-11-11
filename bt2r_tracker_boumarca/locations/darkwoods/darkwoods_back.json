@@ -2,7 +2,7 @@
   {
     "name": "Dark Woods Back",
     "color": "#45325B",
-    "access_rules": ["@Monsterton"],
+    "parent": "Monsterton",
     "children": [
       {
         "name": "Mansion Ledge Bomb Cave",

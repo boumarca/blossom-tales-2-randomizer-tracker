@@ -21,7 +21,7 @@
   {
     "name": "Minotaur King's Castle Dungeon",
     "color": "#A5A29E",
-    "access_rules": ["@Labyrinth 15x16"],
+    "parent": "Labyrinth Back",
     "children": [
       {
         "name": "Minotaur King's Castle",

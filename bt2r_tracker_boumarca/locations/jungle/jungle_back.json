@@ -2,7 +2,7 @@
   {
     "name": "Jungle Back",
     "color": "#00553F",
-    "access_rules": ["@Anchortown"],
+    "parent": "Anchortown",
     "children": [
       {
         "name": "Jungle Back Note Cave",

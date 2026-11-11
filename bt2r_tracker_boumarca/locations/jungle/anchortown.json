@@ -2,7 +2,7 @@
   {
     "name": "Anchortown",
     "color": "#00553F",
-    "access_rules": ["@Jungle Front"],
+    "parent": "Jungle Front",
     "children": [
       {
         "name": "Anchortown Fisherman",
