@@ -63,7 +63,8 @@
           {
             "name": "Octopus Boss Chest",
             "item_count": 1,
-            "access_rules": ["@CanDoDamage, flippers, sword, bluegem, greengem"]
+            "access_rules": ["@CanDoDamage, flippers, sword, bluegem, greengem"],
+            "hosted_item": "morkla"
           }
         ],
         "map_locations": [

@@ -22,5 +22,12 @@
     "mask_input": true,
     "img": "images/items/keypiece3.png",
     "codes": "keypiece3"
+  },
+  {
+    "name": "Morkla",
+    "type": "toggle",
+    "capturable": false,
+    "img": "images/items/morkla.png",
+    "codes": "morkla"
   }
 ]
