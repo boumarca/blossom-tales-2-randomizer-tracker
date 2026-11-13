@@ -2,7 +2,7 @@
   {
     "name": "Dustwood",
     "color": "#A07840",
-    "access_rules": ["@Canyon Southwest"],
+    "parent": "Canyon Southwest",
     "children": [
       {
         "name": "Beggar",

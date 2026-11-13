@@ -1,0 +1,111 @@
+[    
+  {
+    "name": "Canyon Southwest",
+    "color": "#A07840",
+    "parent": "Canyon North",
+    "children": [
+      {
+        "name": "Canyon Southwest Note Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 3,
+            "access_rules": ["@CanOpenNoteDoor, @CanSwitchLevers"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 73, "y": 837 }
+        ]
+      },
+      {
+        "name": "Canyon Southwest Bomb Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 4,
+            "access_rules": ["bombs"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 82, "y": 717 }
+        ]
+      },
+      {
+        "name": "Random Puzzle Cave",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 1,
+            "access_rules": ["@CanSwitchLevers"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 194, "y": 694 }
+        ]
+      },
+      {
+        "name": "Colosseum",
+        "sections": [
+          {
+            "name": "Prizes",
+            "item_count": 2,
+            "access_rules": ["bombs", "falcon", "@CanDoDamage, grapplehook"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 29, "y": 690 }
+        ]
+      },
+      {
+        "name": "Colosseum Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 15, "y": 738 }
+        ]
+      },
+      {
+        "name": "Trader Area Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 79, "y": 888 }
+        ]
+      },
+      {
+        "name": "North Village Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 138, "y": 656 }
+        ]
+      },
+      {
+        "name": "Canyon Southwest Statue",
+        "sections": [
+          {
+            "name": "Lizard Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/statue_lizard_full.png",
+            "chest_unopened_img": "images/locations/statue_lizard_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 48, "y": 843 }
+        ]
+      }
+    ]
+  }
+]
