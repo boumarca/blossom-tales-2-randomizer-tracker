@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Canyon North",
+    "color": "#A07840",
+    "access_rules": ["@Western Overworld, bow", "@Western Overworld, grapplehook"],
+    "children": [
+      {
+        "name": "Ghost",
+        "sections": [
+          {
+            "name": "Ghost",
+            "item_count": 1,
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 327, "y": 810 }
+        ]
+      },
+	  
+      {
+        "name": "Witch Area Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 280, "y": 744 }
+        ]
+      },
+      {
+        "name": "Cemetery Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 352, "y": 810 }
+        ]
+      },
+      {
+        "name": "Lizard Statue Mountain Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 475, "y": 875 }
+        ]
+      }
+    ]
+  }
+]

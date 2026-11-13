@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Dust Wood",
+    "color": "#A07840",
+    "access_rules": ["@Canyon Southeast"],
+    "children": [
+      {
+        "name": "Beggar Reward",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 173, "y": 848 }
+        ]
+      },
+       {
+        "name": "Dust Wood Shop",
+        "sections": [
+          {
+            "name": "Left Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Middle Item",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Right Item",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 230, "y": 830 }
+        ]
+      },
+	 
+
+      {
+        "name": "Northwest House",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 162, "y": 787 }
+        ]
+      },
+      
+      {
+        "name": "Southeast House",
+        "sections": [
+          {
+            "name": "Left Chest",
+            "item_count": 1
+          },
+		  {
+            "name": "Right Chest",
+            "item_count": 1
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 162, "y": 840 }
+        ]
+      }
+
+    ]
+  }
+]
