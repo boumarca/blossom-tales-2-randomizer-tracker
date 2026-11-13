@@ -54,7 +54,7 @@ function has_any_jungle_beach()
 end
 
 function has_any_canyon()
-    return has("@Canyon Island") or has("@Dustwood")
+    return has("@Canyon North") or has("@Canyon Island") or has("@Dustwood")
 end
 
 function has_any_dark_woods()

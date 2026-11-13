@@ -2,7 +2,7 @@
   {
     "name": "Eastern Overworld",
     "color": "#328C38",
-    "access_rules": ["sword2", "boomerang", "flippers", "bombs", "grapplehook"],
+    "access_rules": ["sword2", "boomerang", "flippers", "bombs, grapplehook"],
     "children": [
       {
         "name": "Eastern Overworld Bomb Cave",

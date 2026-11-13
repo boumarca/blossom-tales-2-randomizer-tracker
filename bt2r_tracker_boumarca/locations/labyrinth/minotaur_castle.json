@@ -5,7 +5,7 @@
   },
   {
     "name": "CanAccessCastle3",
-    "access_rules": ["@Minotaur King's Castle Dungeon, $has_enough_keys|Minotaur King's Castle Dungeon|4"]
+    "access_rules": ["@Minotaur King's Castle Dungeon, $has_enough_keys|Minotaur King's Castle Dungeon|1"]
   },
   {
     "name": "CanAccessCastle4",
