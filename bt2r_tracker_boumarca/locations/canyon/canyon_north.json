@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Canyon Island",
+    "color": "#A07840",
+    "access_rules": ["@Canyon Southeast", "@Western Overworld"],
+    "children": [
+      {
+        "name": "Bomb Cave",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 6,
+            "access_rules": ["bombs"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 93, "y": 482 }
+        ]
+      },
+	  
+	  
+	  
+
+
+
+      {
+        "name": "Lizard Statue Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 41, "y": 434 }
+        ]
+      },
+      {
+        "name": "Three Rocks Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 91, "y": 500 }
+        ]
+      },
+      {
+        "name": "Archaeological Site Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 9, "y": 533 }
+        ]
+      },
+      {
+        "name": "Sword Master Dojo Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 176, "y": 474 }
+        ]
+      },
+    
+      {
+        "name": "Archaeologist Reward",
+        "sections": [
+          {
+            "name": "Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 62, "y": 570 }
+        ]
+      }
+    ]
+  }
+]
