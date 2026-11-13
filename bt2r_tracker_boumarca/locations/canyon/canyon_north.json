@@ -1,11 +1,11 @@
 [
   {
-    "name": "Canyon Island",
+    "name": "Canyon North",
     "color": "#A07840",
-    "access_rules": ["@Canyon Southeast", "@Western Overworld"],
+    "access_rules": ["@Western Overworld, bow", "@Western Overworld, grapplehook"],
     "children": [
       {
-        "name": "Bomb Cave",
+        "name": "Canyon North Bomb Cave",
         "sections": [
           {
             "name": "Chest",
@@ -17,12 +17,6 @@
           { "map": "overworld", "x": 93, "y": 482 }
         ]
       },
-	  
-	  
-	  
-
-
-
       {
         "name": "Lizard Statue Bone",
         "sections": [
@@ -74,18 +68,46 @@
           "map_locations": [
             { "map": "overworld", "x": 176, "y": 474 }
         ]
-      },
-    
+      },    
       {
-        "name": "Archaeologist Reward",
+        "name": "Archaeologist",
         "sections": [
           {
             "name": "Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": ["canyonbone:20"]
           }
         ],
         "map_locations": [
           { "map": "overworld", "x": 62, "y": 570 }
+        ]
+      },
+      {
+        "name": "Canyon Entry Statue",
+        "sections": [
+          {
+            "name": "Lizard Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/statue_lizard_full.png",
+            "chest_unopened_img": "images/locations/statue_lizard_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 419, "y": 615 }
+        ]
+      },
+      {
+        "name": "Canyon Northwest Statue",
+        "sections": [
+          {
+            "name": "Lizard Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/statue_lizard_full.png",
+            "chest_unopened_img": "images/locations/statue_lizard_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 17, "y": 426 }
         ]
       }
     ]

@@ -60,8 +60,7 @@
         "map_locations": [
           { "map": "overworld", "x": 668, "y": 860 }
         ]
-      },
-      
+      },      
       {
         "name": "River Access Bone",
         "sections": [
@@ -113,8 +112,7 @@
           "map_locations": [
             { "map": "overworld", "x": 673, "y": 822 }
         ]
-      },
-    
+      },    
       {
         "name": "Camper",
         "sections": [
@@ -125,6 +123,20 @@
         ],
         "map_locations": [
           { "map": "overworld", "x": 630, "y": 735 }
+        ]
+      },
+      {
+        "name": "Island Mountain Statue",
+        "sections": [
+          {
+            "name": "Lizard Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/statue_lizard_full.png",
+            "chest_unopened_img": "images/locations/statue_lizard_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 652, "y": 802 }
         ]
       }
     ]
