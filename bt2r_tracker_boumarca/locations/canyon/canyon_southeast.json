@@ -22,8 +22,7 @@
         "sections": [
           {
             "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
           "map_locations": [
@@ -35,8 +34,7 @@
         "sections": [
           {
             "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
           "map_locations": [
@@ -48,8 +46,7 @@
         "sections": [
           {
             "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
           "map_locations": [
@@ -69,7 +66,21 @@
         "map_locations": [
           { "map": "overworld", "x": 432, "y": 830 }
         ]
-      }
+      },
+      {
+        "name": "Canyon Steppes South Ledge Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": ["@Canyon Steppes South", "{}"]
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 409, "y": 684 }
+        ]
+      },
     ]
   }
 ]

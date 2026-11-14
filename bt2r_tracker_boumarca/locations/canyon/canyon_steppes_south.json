@@ -17,20 +17,7 @@
           { "map": "overworld", "x": 352, "y": 669 },
           { "map": "overworld", "x": 285, "y": 536 }
         ]
-      },
-      {
-        "name": "Canyon Steppes South Ledge Bone",
-        "sections": [
-          {
-            "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
-          }
-        ],
-          "map_locations": [
-            { "map": "overworld", "x": 409, "y": 684 }
-        ]
-      },
+      },      
       {
         "name": "Canyon North Ledge",
         "sections": [

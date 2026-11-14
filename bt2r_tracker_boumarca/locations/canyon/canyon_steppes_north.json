@@ -16,27 +16,13 @@
         "map_locations": [
           { "map": "overworld", "x": 324, "y": 548 }
         ]
-      },
-      {
-        "name": "Master Dojo Peg Bone",
-        "sections": [
-          {
-            "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
-          }
-        ],
-        "map_locations": [
-          { "map": "overworld", "x": 208, "y": 433 }
-        ]
-      },
+      },      
       {
         "name": "Wooden Dock Bone",
         "sections": [
           {
             "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -48,8 +34,7 @@
         "sections": [
           {
             "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -61,27 +46,13 @@
         "sections": [
           {
             "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
           { "map": "overworld", "x": 398, "y": 442 }
         ]
-      },
-      {
-        "name": "Canyon Steppe Ledge Bone",
-        "sections": [
-          {
-            "name": "Bone",
-            "item_count": 1,
-            "capture_item": true
-          }
-        ],
-        "map_locations": [
-          { "map": "overworld", "x": 400, "y": 537 }
-        ]
-      },
+      },      
       {
         "name": "Canyon Steppe Ledge",
         "sections": [
