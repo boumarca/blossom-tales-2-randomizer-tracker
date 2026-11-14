@@ -1,22 +1,22 @@
 [
   {
-    "name": "Canyon North",
+    "name": "Canyon Southeast",
     "color": "#A07840",
-    "access_rules": ["@Western Overworld, bow", "@Western Overworld, grapplehook"],
+    "parent": "Dustwood",
     "children": [
       {
-        "name": "Ghost",
+        "name": "Canyon Ghost",
         "sections": [
           {
             "name": "Ghost",
             "item_count": 1,
+            "access_rules": ["gem:10"]
           }
         ],
         "map_locations": [
           { "map": "overworld", "x": 327, "y": 810 }
         ]
-      },
-	  
+      },	  
       {
         "name": "Witch Area Bone",
         "sections": [
@@ -54,6 +54,20 @@
         ],
           "map_locations": [
             { "map": "overworld", "x": 475, "y": 875 }
+        ]
+      },
+      {
+        "name": "Canyon Mountain Statue",
+        "sections": [
+          {
+            "name": "Lizard Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/statue_lizard_full.png",
+            "chest_unopened_img": "images/locations/statue_lizard_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 432, "y": 830 }
         ]
       }
     ]
