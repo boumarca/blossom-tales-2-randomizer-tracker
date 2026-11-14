@@ -1,0 +1,107 @@
+[
+  {
+    "name": "CanAccessTemple2",
+    "access_rules": ["@Temple Dungeon, $has_enough_keys|Temple Dungeon|1"]
+  },
+  {
+    "name": "CanAccessTemple3",
+    "access_rules": ["@CanAccessTemple2, @CanSwitchLevers, $has_enough_keys|Temple Dungeon|2, @CanDoDamage"]
+  },
+  {
+    "name": "CanAccessTemple4",
+    "access_rules": ["@CanAccessTemple3, grapplehook"]
+  },
+  {
+    "name": "Temple Dungeon",
+    "color": "#A07840",
+    "access_rules": ["@Canyon North, @CanOpenNoteDoor"],
+    "children": [
+      {
+        "name": "Canyon Temple",
+        "sections": [ 
+          {
+            "name": "Entrance Chest",
+            "item_count": 1,
+            "access_rules": ["bow, @CanSwitchLevers", "grapplehook"]
+          },
+          {
+            "name": "Collapsing Paths Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple2, @CanSwitchLevers"]
+          },
+          {
+            "name": "Cart Platform Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple2, @CanSwitchLevers", "@CanAccessMansion2, grapplehook"]
+          },
+          {
+            "name": "Secret Room Crystal Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple2, @CanSwitchLevers, bombs"]
+          },
+          {
+            "name": "Bomb Rocks Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple2, @CanSwitchLevers, bombs"]
+          },
+          {
+            "name": "Peg Platform Chests",
+            "item_count": 2,
+            "access_rules": ["@CanAccessTemple3, grapplehook"]
+          },
+          {
+            "name": "Room 11 Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple3, @CanSwitchLevers"]
+          },
+          {
+            "name": "Room 11 Bomb Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple3, @CanSwitchLevers, bombs"]
+          },
+          {
+            "name": "Grapplehook Paths Secret Room Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple4, bombs"]
+          },
+          {
+            "name": "Room 17 Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple4"]
+          },
+          {
+            "name": "Room 18 Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple4"]
+          },
+          {
+            "name": "Secret Room 18 Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple4, bombs"]
+          },
+          {
+            "name": "Vulture Boss Chest",
+            "item_count": 1,
+            "access_rules": [
+                "@CanAccessTemple3, $has_enough_keys|Temple Dungeon|3, @CanDoDamage",
+                "@CanAccessTemple3, grapplehook, @CanDoDamage"   
+            ]
+          },
+          {
+            "name": "Genie Boss Reward",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple4, torch"]
+          },
+          {
+            "name": "Genie Boss Chest",
+            "item_count": 1,
+            "access_rules": ["@CanAccessTemple4, torch"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 190, "y": 542 }
+        ]
+      }
+    ]
+  }
+]

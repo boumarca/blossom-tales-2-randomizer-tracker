@@ -21,7 +21,7 @@ function required_key_count(region)
     if has("@Morkla Dungeon") and region ~= "Morkla Dungeon" then
         keys = keys + 1
     end
-    if has("@Canyon Temple") and region ~= "Canyon Temple" then
+    if has("@Temple Dungeon") and region ~= "Temple Dungeon" then
         keys = keys + 3
     end
     if has("@Mansion Dungeon") and region ~= "Mansion Dungeon" then
