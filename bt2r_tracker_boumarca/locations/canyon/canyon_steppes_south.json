@@ -1,0 +1,86 @@
+[    
+  {
+    "name": "Canyon Steppes South",
+    "color": "#A07840",
+    "access_rules": ["@Canyon Southeast, grapplehook", "@Canyon Southeast, boomerang"],
+    "children": [
+      {
+        "name": "Canyon Steppes Note Cave",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1,
+            "access_rules": ["boomerang", "@CanOpenNoteDoor, @CanSwitchLevers"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 352, "y": 669 },
+          { "map": "overworld", "x": 285, "y": 536 }
+        ]
+      },
+      {
+        "name": "Canyon Steppes South Ledge Bone",
+        "sections": [
+          {
+            "name": "Bone",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 409, "y": 684 }
+        ]
+      },
+      {
+        "name": "Canyon North Ledge",
+        "sections": [
+          {
+            "name": "Chests",
+            "item_count": 2
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 314, "y": 611 }
+        ]
+      },
+      {
+        "name": "Canyon Steppes South Ledge",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 396, "y": 670 }
+        ]
+      },
+      {
+        "name": "Canyon Steppes South Tree",
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+          "map_locations": [
+            { "map": "overworld", "x": 424, "y": 648 }
+        ]
+      },
+      {
+        "name": "Witch House Statue",
+        "sections": [
+          {
+            "name": "Lizard Statue",
+            "item_count": 1,
+            "chest_opened_img": "images/locations/statue_lizard_full.png",
+            "chest_unopened_img": "images/locations/statue_lizard_empty.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 293, "y": 652 }
+        ]
+      }
+    ]
+  }
+]
