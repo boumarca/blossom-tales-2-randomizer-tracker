@@ -27,12 +27,12 @@
           {
             "name": "Roller Room Chest",
             "item_count": 1,
-            "access_rules": ["@CanAccessMansion2,grapplehook", "@CanAccessMansion3, teleporter"]
+            "access_rules": ["@CanAccessMansion2, grapplehook", "@CanAccessMansion3, teleporter"]
           },
           {
             "name": "Roller Secret Room Chest",
             "item_count": 1,
-            "access_rules": ["@CanAccessMansion2,grapplehook, bombs", "@CanAccessMansion3, teleporter, bombs"]
+            "access_rules": ["@CanAccessMansion2, grapplehook, bombs", "@CanAccessMansion3, teleporter, bombs"]
           },
           {
             "name": "Laser Secret Room Chests",
