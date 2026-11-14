@@ -46,12 +46,8 @@
         "name": "Grandma",
         "sections": [
           {
-            "name": "First gift",
-            "item_count": 1
-          },
-          {
-            "name": "Second gift",
-            "item_count": 1
+            "name": "Gifts",
+            "item_count": 2
           }
         ],
         "map_locations": [

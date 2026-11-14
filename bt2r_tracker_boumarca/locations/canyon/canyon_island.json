@@ -34,13 +34,8 @@
         "name": "Prisoner Bard",
         "sections": [
           {
-            "name": "Reward",
-            "item_count": 1,
-            "access_rules": ["@CanDoDamage"]
-          },
-          {
-            "name": "Song",
-            "item_count": 1,
+            "name": "Rewards",
+            "item_count": 2,
             "access_rules": ["@CanDoDamage"]
           }
         ],
